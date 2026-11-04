@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="DOC: added files to repo">
+      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/spartaFileDirectory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Api_sparta-testing-framework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SteelMango"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SteelMango/Api_sparta-testing-framework.git",
+    "accountId": "99ab6c28-97c6-442a-bd0f-6095f4b20ccb"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.804148537391186" />
+      <entry key="MS500" value="3.767515487778229" />
+      <entry key="S2" value="4.649471007810693" />
+      <entry key="S5" value="5.302749749374885" />
+      <entry key="S10" value="6.700219418352965" />
+      <entry key="S30" value="10.672484323977233" />
+      <entry key="S60" value="13.353085129529408" />
+      <entry key="M2" value="15.456026323368215" />
+      <entry key="M5" value="18.072445852164194" />
+      <entry key="M10" value="20.12113136540238" />
+      <entry key="M15" value="21.137095343846426" />
+      <entry key="M30" value="22.405043383815467" />
+      <entry key="H1" value="23.15614358058474" />
+      <entry key="H2" value="23.565707566298773" />
+      <entry key="H4" value="23.779660873024323" />
+      <entry key="D1" value="23.962824431392445" />
+      <entry key="W1" value="23.994678007536614" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.7105848286825045" />
+      <entry key="MS500" value="3.728883058055346" />
+      <entry key="S2" value="4.63755385147581" />
+      <entry key="S5" value="5.297356743331311" />
+      <entry key="S10" value="6.696872749777155" />
+      <entry key="S30" value="10.670782064598512" />
+      <entry key="S60" value="13.35204422694249" />
+      <entry key="M2" value="15.45543290152265" />
+      <entry key="M5" value="18.0721735388643" />
+      <entry key="M10" value="20.120981887450533" />
+      <entry key="M15" value="21.13699131879699" />
+      <entry key="M30" value="22.40498865049446" />
+      <entry key="H1" value="23.15611540957403" />
+      <entry key="H2" value="23.56569326168004" />
+      <entry key="H4" value="23.779653663506494" />
+      <entry key="D1" value="23.962823221645486" />
+      <entry key="W1" value="23.994677834512906" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3LeQW8TsBXgZAJkK3RAEG3zYWTg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="" />
+      <created>1793812082156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793812082156</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DOC: added files to repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOC: added files to repo" />
+  </component>
+</project>
