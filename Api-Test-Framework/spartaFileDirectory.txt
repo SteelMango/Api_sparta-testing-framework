@@ -1,2 +1,0 @@
-SpartaAcademyAPI
-C:\Users\Penel\Documents\Api_sparta-testing-framework\Api-Test-Framework\src\main\resources\SpartaAcademyApp\SpartaAcademyAPI
