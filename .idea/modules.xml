@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Api-Test-Framework/Api-Test-Framework.iml" filepath="$PROJECT_DIR$/Api-Test-Framework/Api-Test-Framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Api_sparta-testing-framework.iml" filepath="$PROJECT_DIR$/.idea/Api_sparta-testing-framework.iml" />
     </modules>
   </component>
