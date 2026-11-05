@@ -3,10 +3,15 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+import io.restassured.RestAssured;
+
+
 public class AuthStepdefs {
+    private final String BASE_URI = ""
 
     @Given("^I am on the login endpoint$")
     public void iAmOnTheLoginEndpoint() {
+
     }
 
     @When("^I enter valid username \"([^\"]*)\"$")

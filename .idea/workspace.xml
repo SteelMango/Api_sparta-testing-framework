@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="Test: Created Auth feature file">
-      <change beforePath="$PROJECT_DIR$/.idea/Api_sparta-testing-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Api_sparta-testing-framework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/main/StepDefs/AuthStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/AuthStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/main/Test/Authentication/auth.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Authentication/auth.feature" afterDir="false" />
+    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="Fix: Changes to files">
+      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/CourseStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Courses/course.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Courses/idCourse.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/SpartaAcademyAPI/SpartaAcademyAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/SpartaAcademyAPI/SpartaAcademyAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/SpartaAcademyAPI/SpartaAcademyAPI.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/SpartaAcademyAPI/SpartaAcademyAPI.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/AuthStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/AuthStepdefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +41,12 @@
     &quot;assignee&quot;: &quot;SteelMango&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SteelMango/Api_sparta-testing-framework.git",
-    "accountId": "cb1a763e-7933-4c09-9329-bd2512e31bc1"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SteelMango/Api_sparta-testing-framework.git&quot;,
+    &quot;accountId&quot;: &quot;cb1a763e-7933-4c09-9329-bd2512e31bc1&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.804148537391186" />
@@ -125,11 +133,13 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Api-Test-Framework/src/test" />
       <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework" />
     </key>
   </component>
@@ -168,6 +178,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DOC: added files to repo" />
     <MESSAGE value="Test: Created Auth feature file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test: Created Auth feature file" />
+    <MESSAGE value="Fix: Changes to files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Changes to files" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
