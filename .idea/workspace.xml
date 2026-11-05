@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="Fix: Changes to files">
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/CourseStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Courses/course.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Courses/idCourse.feature" afterDir="false" />
+    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="Docs: added new feature and stepdef files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/SpartaAcademyAPI/SpartaAcademyAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/SpartaAcademyAPI/SpartaAcademyAPI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/SpartaAcademyAPI/SpartaAcademyAPI.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/main/resources/SpartaAcademyApp/SpartaAcademyAPI/SpartaAcademyAPI.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/AuthStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/AuthStepdefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +173,8 @@
     <MESSAGE value="DOC: added files to repo" />
     <MESSAGE value="Test: Created Auth feature file" />
     <MESSAGE value="Fix: Changes to files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Changes to files" />
+    <MESSAGE value="Docs: added new feature and stepdef files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docs: added new feature and stepdef files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

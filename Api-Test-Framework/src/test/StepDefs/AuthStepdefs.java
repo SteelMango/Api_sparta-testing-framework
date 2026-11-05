@@ -7,8 +7,6 @@ import io.restassured.RestAssured;
 
 
 public class AuthStepdefs {
-    private final String BASE_URI = ""
-
     @Given("^I am on the login endpoint$")
     public void iAmOnTheLoginEndpoint() {
 
