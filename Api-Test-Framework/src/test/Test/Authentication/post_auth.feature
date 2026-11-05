@@ -4,13 +4,13 @@ Feature: Authentication
   So I can see and manage Spartan courses
 
 
-  Scenario: Valid details allows login
+  Scenario: [TC-01] Valid details allows login
     Given I am on the login endpoint
     When I enter valid username "sparta"
     And  I enter valid password "global"
     Then I get status code 200
 
-    Scenario: Invalid details prevents login
+    Scenario: [TC-02] Invalid details prevents login
       Given I am on the login endpoint
       When I enter invalid username "test"
       And  I enter invalid password "test"

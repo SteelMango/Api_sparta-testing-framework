@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="Docs: added new feature and stepdef files">
+    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="Updates to repo">
+      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/post_authStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/idSpartans.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/spartans.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/AuthStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/AuthStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/AuthStepdefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/CourseStepdefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/idCoursesStepdefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Authentication/auth.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Authentication/post_auth.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Courses/course.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Courses/course.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Courses/idCourse.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Courses/idCourse.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +181,8 @@
     <MESSAGE value="Test: Created Auth feature file" />
     <MESSAGE value="Fix: Changes to files" />
     <MESSAGE value="Docs: added new feature and stepdef files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docs: added new feature and stepdef files" />
+    <MESSAGE value="Updates to repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates to repo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
