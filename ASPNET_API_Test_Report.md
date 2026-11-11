@@ -13,4 +13,4 @@
 ## Issues 
 1. Refactor folder system
 2. word issues
-3. 
+
