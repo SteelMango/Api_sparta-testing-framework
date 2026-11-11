@@ -29,8 +29,13 @@
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>5.5.0</version>
-            <scope>test</scope>
+            <version>6.3.0</version>
+            <scope>Test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>2.1</version>
         </dependency>
     </dependencies>
 

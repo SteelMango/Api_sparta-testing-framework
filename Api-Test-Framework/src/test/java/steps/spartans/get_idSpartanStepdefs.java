@@ -1,4 +1,4 @@
-package steps.Spartans;
+package steps.spartans;
 
 public class get_idSpartanStepdefs {
     @io.cucumber.java.en.Given("^I am on the spartan api$")

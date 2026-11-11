@@ -1,4 +1,4 @@
-package steps.Courses;
+package steps.courses;
 
 import io.cucumber.java.PendingException;
 import io.cucumber.java.en.Given;

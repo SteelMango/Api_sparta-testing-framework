@@ -1,4 +1,4 @@
-package steps.Spartans;
+package steps.spartans;
 
 import io.cucumber.java.PendingException;
 import io.cucumber.java.en.Given;

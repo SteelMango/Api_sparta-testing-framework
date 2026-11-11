@@ -5,20 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="chore: changed the folder layout">
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/main/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/Authentication/post_authStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/Courses/get_courseStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/Courses/get_idCourseStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/Spartans/delete_idSpartanStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/Spartans/get_idSpartanStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/Spartans/get_spartanStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/post_authStepdefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/delete_idSpartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/delete_idSpartan.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/get_idSpartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/get_idSpartan.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/get_spartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/get_spartan.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/post_spartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/post_spartan.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sparta Global Test Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Sparta Global Test Report.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Authentication/post_auth.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/authentication/post_auth.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Courses/get_course.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_course.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Courses/get_idCourse.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_idCourse.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/delete_idSpartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/get_idSpartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/get_idSpartan.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/get_spartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/get_spartan.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/post_spartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/Test/Spartans/put_idSpartan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/steps/Authentication/post_authStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/authentication/post_authStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/steps/Courses/get_courseStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/courses/get_courseStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/steps/Courses/get_idCourseStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/courses/get_idCourseStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/steps/Spartans/delete_idSpartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/delete_idSpartanStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/steps/Spartans/get_idSpartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_idSpartanStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/steps/Spartans/get_spartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_spartanStepdefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,69 +49,69 @@
     &quot;assignee&quot;: &quot;SteelMango&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/SteelMango/Api_sparta-testing-framework.git&quot;,
-    &quot;accountId&quot;: &quot;cb1a763e-7933-4c09-9329-bd2512e31bc1&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SteelMango/Api_sparta-testing-framework.git",
+    "accountId": "99ab6c28-97c6-442a-bd0f-6095f4b20ccb"
   }
-}</component>
+}]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.804148537391186" />
-      <entry key="MS500" value="3.767515487778229" />
-      <entry key="S2" value="4.649471007810693" />
-      <entry key="S5" value="5.302749749374885" />
-      <entry key="S10" value="6.700219418352965" />
-      <entry key="S30" value="10.672484323977233" />
-      <entry key="S60" value="13.353085129529408" />
-      <entry key="M2" value="15.456026323368215" />
-      <entry key="M5" value="18.072445852164194" />
-      <entry key="M10" value="20.12113136540238" />
-      <entry key="M15" value="21.137095343846426" />
-      <entry key="M30" value="22.405043383815467" />
-      <entry key="H1" value="23.15614358058474" />
-      <entry key="H2" value="23.565707566298773" />
-      <entry key="H4" value="23.779660873024323" />
-      <entry key="D1" value="23.962824431392445" />
-      <entry key="W1" value="23.994678007536614" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000000000264" />
+      <entry key="S60" value="1.0000005691059533" />
+      <entry key="M2" value="1.0035350476779368" />
+      <entry key="M5" value="2.004428315219151" />
+      <entry key="M10" value="9.35840408807672" />
+      <entry key="M15" value="19.422281689247708" />
+      <entry key="M30" value="44.71444912145647" />
+      <entry key="H1" value="70.69536272241281" />
+      <entry key="H2" value="89.84410663872569" />
+      <entry key="H4" value="101.55585327863562" />
+      <entry key="D1" value="112.6276661916082" />
+      <entry key="W1" value="114.65771160067092" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S2" value="3.245024633092385E-268" />
+      <entry key="S5" value="1.0103857189402253E-107" />
+      <entry key="S10" value="3.1786565069856587E-54" />
+      <entry key="S30" value="1.4703290341228513E-18" />
+      <entry key="S60" value="1.212571249091307E-9" />
+      <entry key="M2" value="3.482199375525913E-5" />
+      <entry key="M5" value="0.016471814900488282" />
+      <entry key="M10" value="0.1283425685440661" />
+      <entry key="M15" value="0.2544371278104189" />
+      <entry key="M30" value="0.5044176125101292" />
+      <entry key="H1" value="0.7102236355614542" />
+      <entry key="H2" value="0.8427476701607985" />
+      <entry key="H4" value="0.9180128921539165" />
+      <entry key="D1" value="0.985843846655616" />
+      <entry key="W1" value="0.997965314576896" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.7105848286825045" />
-      <entry key="MS500" value="3.728883058055346" />
-      <entry key="S2" value="4.63755385147581" />
-      <entry key="S5" value="5.297356743331311" />
-      <entry key="S10" value="6.696872749777155" />
-      <entry key="S30" value="10.670782064598512" />
-      <entry key="S60" value="13.35204422694249" />
-      <entry key="M2" value="15.45543290152265" />
-      <entry key="M5" value="18.0721735388643" />
-      <entry key="M10" value="20.120981887450533" />
-      <entry key="M15" value="21.13699131879699" />
-      <entry key="M30" value="22.40498865049446" />
-      <entry key="H1" value="23.15611540957403" />
-      <entry key="H2" value="23.56569326168004" />
-      <entry key="H4" value="23.779653663506494" />
-      <entry key="D1" value="23.962823221645486" />
-      <entry key="W1" value="23.994677834512906" />
+      <entry key="MS100" value="0.9659363289248456" />
+      <entry key="MS500" value="0.9930924954370359" />
+      <entry key="S2" value="0.9982686325973925" />
+      <entry key="S5" value="0.9993070929904525" />
+      <entry key="S10" value="0.9996534864594093" />
+      <entry key="S30" value="0.9998844821426345" />
+      <entry key="S60" value="0.9999428061764872" />
+      <entry key="M2" value="1.0035290758227557" />
+      <entry key="M5" value="2.019488990101534" />
+      <entry key="M10" value="9.481409285449237" />
+      <entry key="M15" value="19.66957556234382" />
+      <entry key="M30" value="45.21161032060607" />
+      <entry key="H1" value="71.40038979028864" />
+      <entry key="H2" value="90.68374073275513" />
+      <entry key="H4" value="102.47216141630415" />
+      <entry key="D1" value="113.61320352660482" />
+      <entry key="W1" value="115.65563255415474" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -123,37 +126,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;2&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "git.auto.fetch.suggestion.counter": "2",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Api-Test-Framework/src/test/StepDefs/Spartans" />
-      <recent name="$PROJECT_DIR$/Api-Test-Framework/src/test" />
-      <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework" />
+      <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework\Api-Test-Framework\src\test\java\steps\authentication" />
+      <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework\Api-Test-Framework\src\test\resources\features" />
+      <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework\Api-Test-Framework\src\test\java\steps\spartans" />
+      <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework\Api-Test-Framework\src\test\resources\features\spartans" />
+      <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework\Api-Test-Framework\src\test\resources\features\" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
       </set>
     </attachedChunks>
   </component>

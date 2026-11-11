@@ -1,11 +1,11 @@
-package steps.Authentication;
+package steps.courses;
 
 import io.cucumber.java.PendingException;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class post_authStepdefs {
+public class get_courseStepdefs {
     @Given("^I am on the courses api$")
     public void iAmOnTheCoursesApi() {
         // Write code here that turns the phrase above into concrete actions
