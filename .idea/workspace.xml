@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="Add to Main">
+    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="update: markdown report">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASPNET_API_Test_Report.md" beforeDir="false" afterPath="$PROJECT_DIR$/ASPNET_API_Test_Report.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/courses/get_courseStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/courses/get_courseStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_course.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_course.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,61 +42,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="8.439007147876694E-14" />
-      <entry key="MS500" value="0.0028450462002327774" />
-      <entry key="S2" value="0.5324104461393789" />
-      <entry key="S5" value="2.392424571105798" />
-      <entry key="S10" value="4.665112930944234" />
-      <entry key="S30" value="10.432447506857981" />
-      <entry key="S60" value="16.613961059299662" />
-      <entry key="M2" value="25.35519270934808" />
-      <entry key="M5" value="42.042846550295835" />
-      <entry key="M10" value="63.671473154030586" />
-      <entry key="M15" value="81.52375307881758" />
-      <entry key="M30" value="121.66995742704833" />
-      <entry key="H1" value="166.96104764260232" />
-      <entry key="H2" value="204.6126203997564" />
-      <entry key="H4" value="229.5550643680873" />
-      <entry key="D1" value="254.4868343943487" />
-      <entry key="W1" value="259.20081743144897" />
+      <entry key="MS100" value="1.0009433731719002" />
+      <entry key="MS500" value="1.291642077650373" />
+      <entry key="S2" value="2.4210882385316235" />
+      <entry key="S5" value="3.1867493274389016" />
+      <entry key="S10" value="3.5537403641200407" />
+      <entry key="S30" value="3.8413192038979083" />
+      <entry key="S60" value="3.920219764301968" />
+      <entry key="M2" value="4.172460957146184" />
+      <entry key="M5" value="11.45001150618684" />
+      <entry key="M10" value="33.80869223146445" />
+      <entry key="M15" value="55.828491541019226" />
+      <entry key="M30" value="107.28012243268756" />
+      <entry key="H1" value="166.65830671326594" />
+      <entry key="H2" value="217.5164265501011" />
+      <entry key="H4" value="252.02018125979853" />
+      <entry key="D1" value="287.14792413416836" />
+      <entry key="W1" value="293.85990771954744" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000033220379865" />
-      <entry key="S5" value="1.0064364980363723" />
-      <entry key="S10" value="1.0813662905018684" />
-      <entry key="S30" value="1.556829454171441" />
-      <entry key="S60" value="2.173995705279375" />
-      <entry key="M2" value="3.0517313056029067" />
-      <entry key="M5" value="4.598083382574986" />
-      <entry key="M10" value="7.34016999499873" />
-      <entry key="M15" value="9.936913820719406" />
-      <entry key="M30" value="14.927104780927447" />
-      <entry key="H1" value="19.056365731802934" />
-      <entry key="H2" value="21.7524021936044" />
-      <entry key="H4" value="23.29977328676813" />
-      <entry key="D1" value="24.705300637154767" />
-      <entry key="W1" value="24.957612775321603" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.5018973558032202E-149" />
+      <entry key="S5" value="2.9593926147873706E-60" />
+      <entry key="S10" value="1.784963953666191E-30" />
+      <entry key="S30" value="1.8101681815013734E-10" />
+      <entry key="S60" value="2.4578012898792092E-5" />
+      <entry key="M2" value="0.0109504074804522" />
+      <entry key="M5" value="0.5206572476465364" />
+      <entry key="M10" value="2.5344294156767586" />
+      <entry key="M15" value="4.937983486062744" />
+      <entry key="M30" value="10.696092202045659" />
+      <entry key="H1" value="16.433987472682926" />
+      <entry key="H2" value="20.594936380599766" />
+      <entry key="H4" value="23.118835134576383" />
+      <entry key="D1" value="25.492724785529354" />
+      <entry key="W1" value="25.926836921517047" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.09150535599668033" />
-      <entry key="MS500" value="0.622663060933818" />
-      <entry key="S2" value="1.4184572250428178" />
-      <entry key="S5" value="3.349810852316737" />
-      <entry key="S10" value="5.7188724751668145" />
-      <entry key="S30" value="11.97488010455218" />
-      <entry key="S60" value="18.77670622590213" />
-      <entry key="M2" value="28.396940353726286" />
-      <entry key="M5" value="46.63075725339017" />
-      <entry key="M10" value="70.9970787216918" />
-      <entry key="M15" value="91.44372270674711" />
-      <entry key="M30" value="136.58011184517312" />
-      <entry key="H1" value="186.00462062451848" />
-      <entry key="H2" value="226.3570107143997" />
-      <entry key="H4" value="252.85033090921544" />
-      <entry key="D1" value="279.19130416317006" />
-      <entry key="W1" value="284.15830940974155" />
+      <entry key="MS100" value="0.9668475678537687" />
+      <entry key="MS500" value="1.2827798023522057" />
+      <entry key="S2" value="2.417143930417352" />
+      <entry key="S5" value="3.18472364016407" />
+      <entry key="S10" value="3.5526212712069327" />
+      <entry key="S30" value="3.8409185324665236" />
+      <entry key="S60" value="3.9200401025163414" />
+      <entry key="M2" value="4.183272131646349" />
+      <entry key="M5" value="11.96957388821261" />
+      <entry key="M10" value="36.33851119983023" />
+      <entry key="M15" value="60.75864943470046" />
+      <entry key="M30" value="117.96470133831117" />
+      <entry key="H1" value="183.08173108692543" />
+      <entry key="H2" value="238.10406536190746" />
+      <entry key="H4" value="275.1347045566301" />
+      <entry key="D1" value="312.6398206908669" />
+      <entry key="W1" value="319.78662337730896" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -115,6 +113,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Cucumber Java.Scenario: [TC-01] Valid details allows login.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -211,7 +210,8 @@
     <MESSAGE value="refactor: changed the folder layout to maven layout" />
     <MESSAGE value="fix: wrong file names" />
     <MESSAGE value="Add to Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add to Main" />
+    <MESSAGE value="update: markdown report" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: markdown report" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
