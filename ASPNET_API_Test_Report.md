@@ -4,6 +4,26 @@
 
 ## Endpoints in Scope
 
+### Authentication
+| Method | Path        | Description                                                 |
+|--------|-------------|-------------------------------------------------------------|
+| POST   | /Auth/login | Allows the user to login with a valid username and password |
+
+### Courses
+| Method | Path              | Description |
+|--------|-------------------|-------------|
+| GET    | /api.courses      |             |
+| GET    | /api/courses/{id} |
+
+### Spartans
+| Method | Path | Description |
+|--------|------|-------------|
+| GET    |      |             |
+| POST   |      |             |
+| GET    |      |             |
+| DELETE |      |             |
+| PUT    |      |             |
+
 ## User Stories (Gherkin)
 
 
