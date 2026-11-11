@@ -5,6 +5,6 @@ Feature: Course
 
   Scenario: [TC-03] Successfully Check courses
     Given I am on the courses api
-    When I press enter
+    When I get code 200
     Then I should get all the information about the courses
 

@@ -19,7 +19,7 @@ public class get_courseStepdefs {
                 statusCode(200);
     }
 
-    @When("^I press enter$")
+    @When("^I get code 200$")
     public void iPressEnter() {
 
 
