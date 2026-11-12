@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="update: markdown report">
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/commonStepdefs.java" afterDir="false" />
+    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="docs: added information to the README.md and contrains one passing test">
+      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/runner/RunCucumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/courses/get_courseStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/courses/get_courseStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/delete_idSpartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/delete_idSpartanStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_idSpartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_idSpartanStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_spartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_spartanStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/get_idSpartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/get_idSpartan.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/authentication" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,61 +43,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000768158001835" />
-      <entry key="MS500" value="1.352377670737732" />
-      <entry key="S2" value="3.8188122145171373" />
-      <entry key="S5" value="7.978899715656977" />
-      <entry key="S10" value="12.805398696150716" />
-      <entry key="S30" value="25.64090378885632" />
-      <entry key="S60" value="39.69766915951129" />
-      <entry key="M2" value="63.45040701438935" />
-      <entry key="M5" value="113.33994536282472" />
-      <entry key="M10" value="155.71942066884594" />
-      <entry key="M15" value="183.3093293817145" />
-      <entry key="M30" value="245.65459172719758" />
-      <entry key="H1" value="327.00901278959725" />
-      <entry key="H2" value="405.87165369903323" />
-      <entry key="H4" value="463.9161881565863" />
-      <entry key="D1" value="526.5367806994633" />
-      <entry key="W1" value="538.8896781631752" />
+      <entry key="MS100" value="2.9066244900299896E-176" />
+      <entry key="MS500" value="7.810481097626063E-36" />
+      <entry key="S2" value="1.6717427422614045E-9" />
+      <entry key="S5" value="3.085089577544567E-4" />
+      <entry key="S10" value="0.017564477062818946" />
+      <entry key="S30" value="0.26881445483514893" />
+      <entry key="S60" value="0.7341159474833882" />
+      <entry key="M2" value="2.09971682864573" />
+      <entry key="M5" value="14.467125547920935" />
+      <entry key="M10" value="56.42308814791698" />
+      <entry key="M15" value="97.9291143363305" />
+      <entry key="M30" value="192.4346929591696" />
+      <entry key="H1" value="306.5392961425756" />
+      <entry key="H2" value="414.6570338266992" />
+      <entry key="H4" value="494.59561867001077" />
+      <entry key="D1" value="581.723445830271" />
+      <entry key="W1" value="599.0377249981685" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="6.029809007521053E-214" />
-      <entry key="S5" value="5.153727152287129E-86" />
-      <entry key="S10" value="2.2701821862047803E-43" />
-      <entry key="S30" value="6.114222294615758E-15" />
-      <entry key="S60" value="8.886645716806857E-8" />
-      <entry key="M2" value="6.533187835429573E-4" />
-      <entry key="M5" value="0.28981654752296165" />
-      <entry key="M10" value="2.695497389371053" />
-      <entry key="M15" value="6.0991015471361525" />
-      <entry key="M30" value="15.491003459112164" />
-      <entry key="H1" value="26.75597860847938" />
-      <entry key="H2" value="36.178033721910865" />
-      <entry key="H4" value="42.410193612944035" />
-      <entry key="D1" value="48.62705516477199" />
-      <entry key="W1" value="49.80101947764973" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000013998" />
+      <entry key="S2" value="1.001088286743534" />
+      <entry key="S5" value="1.0705576096368525" />
+      <entry key="S10" value="1.4039116535991523" />
+      <entry key="S30" value="3.170521225983553" />
+      <entry key="S60" value="4.735898804118774" />
+      <entry key="M2" value="6.383023356292505" />
+      <entry key="M5" value="8.509177445113437" />
+      <entry key="M10" value="10.422665655385158" />
+      <entry key="M15" value="12.691915372938459" />
+      <entry key="M30" value="20.624896799492333" />
+      <entry key="H1" value="32.49993174691804" />
+      <entry key="H2" value="43.786704779471066" />
+      <entry key="H4" value="51.781372265225116" />
+      <entry key="D1" value="60.115211755989876" />
+      <entry key="W1" value="61.725886086220186" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9734020999010908" />
-      <entry key="MS500" value="1.3448516163724764" />
-      <entry key="S2" value="3.813009505808039" />
-      <entry key="S5" value="7.973787269790428" />
-      <entry key="S10" value="12.801195658104275" />
-      <entry key="S30" value="25.637988868959244" />
-      <entry key="S60" value="39.695349355497015" />
-      <entry key="M2" value="63.449091820536324" />
-      <entry key="M5" value="113.62664165492772" />
-      <entry key="M10" value="158.40639491624717" />
-      <entry key="M15" value="189.39625513343697" />
-      <entry key="M30" value="261.1297122369118" />
-      <entry key="H1" value="353.75011630595014" />
-      <entry key="H2" value="442.0389271759227" />
-      <entry key="H4" value="506.3198072311277" />
-      <entry key="D1" value="575.1625299286272" />
-      <entry key="W1" value="588.6905052321481" />
+      <entry key="MS100" value="5.78199984172973E-6" />
+      <entry key="MS500" value="0.08962220300107938" />
+      <entry key="S2" value="0.5476948976615401" />
+      <entry key="S5" value="0.8380607511396679" />
+      <entry key="S10" value="1.2367662002005975" />
+      <entry key="S30" value="3.248310888791383" />
+      <entry key="S60" value="5.317627195669411" />
+      <entry key="M2" value="8.376366815134459" />
+      <entry key="M5" value="22.91755777945948" />
+      <entry key="M10" value="66.80973245019794" />
+      <entry key="M15" value="110.59237919862164" />
+      <entry key="M30" value="213.03701877620358" />
+      <entry key="H1" value="339.0209412404218" />
+      <entry key="H2" value="458.43083978874125" />
+      <entry key="H4" value="546.3691034333601" />
+      <entry key="D1" value="641.8370791249218" />
+      <entry key="W1" value="660.7633780851078" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -124,13 +117,14 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Cucumber Java.Scenario: [TC-01] Valid details allows login.executor": "Run",
     "Cucumber Java.Scenario: [TC-03] Successfully Check courses.executor": "Run",
+    "JUnit.RunCucumberTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/courses",
     "git.auto.fetch.suggestion.counter": "3",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.jshint": "true",
@@ -151,7 +145,7 @@
       <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework\Api-Test-Framework\src\test\resources\features\" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: [TC-03] Successfully Check courses">
+  <component name="RunManager" selected="JUnit.RunCucumberTest">
     <configuration name="Scenario: [TC-01] Valid details allows login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/authentication/post_auth.feature" />
@@ -190,8 +184,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api-Test-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.RunCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunCucumberTest" />
         <item itemvalue="Cucumber Java.Scenario: [TC-03] Successfully Check courses" />
         <item itemvalue="Cucumber Java.Scenario: [TC-01] Valid details allows login" />
       </list>
@@ -240,7 +250,8 @@
     <MESSAGE value="fix: wrong file names" />
     <MESSAGE value="Add to Main" />
     <MESSAGE value="update: markdown report" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: markdown report" />
+    <MESSAGE value="docs: added information to the README.md and contrains one passing test" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: added information to the README.md and contrains one passing test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
