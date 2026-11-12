@@ -10,6 +10,6 @@ Feature: Spartans
 
     Scenario: [TC - 012] Get error message for invalid id
       Given I am on the spartan api
-      When I enter an invalid id
+      When I enter an invalid id for the spartan api
       Then I should get an error about invalid id input
 

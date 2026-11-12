@@ -24,7 +24,7 @@ public class delete_idSpartanStepdefs {
         throw new PendingException();
     }
 
-    @When("^I enter a valid id$")
+    @When("^I enter a valid id to delete$")
     public void iEnterAValidId() {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();

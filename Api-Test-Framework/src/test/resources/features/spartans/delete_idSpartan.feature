@@ -9,5 +9,5 @@ Feature: Spartans
 
   Scenario: [TC - 010] Successfully deleting a spartan
     Given I am on the delete api
-    When I enter a valid id
+    When I enter a valid id to delete
     Then I should get http code 200

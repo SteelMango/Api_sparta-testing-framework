@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="update: markdown report">
+      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/commonStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/courses/get_courseStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/courses/get_courseStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/delete_idSpartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/delete_idSpartanStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_idSpartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_idSpartanStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_spartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_spartanStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/get_idSpartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/get_idSpartan.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +50,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0009433731719002" />
-      <entry key="MS500" value="1.291642077650373" />
-      <entry key="S2" value="2.4210882385316235" />
-      <entry key="S5" value="3.1867493274389016" />
-      <entry key="S10" value="3.5537403641200407" />
-      <entry key="S30" value="3.8413192038979083" />
-      <entry key="S60" value="3.920219764301968" />
-      <entry key="M2" value="4.172460957146184" />
-      <entry key="M5" value="11.45001150618684" />
-      <entry key="M10" value="33.80869223146445" />
-      <entry key="M15" value="55.828491541019226" />
-      <entry key="M30" value="107.28012243268756" />
-      <entry key="H1" value="166.65830671326594" />
-      <entry key="H2" value="217.5164265501011" />
-      <entry key="H4" value="252.02018125979853" />
-      <entry key="D1" value="287.14792413416836" />
-      <entry key="W1" value="293.85990771954744" />
+      <entry key="MS100" value="1.000768158001835" />
+      <entry key="MS500" value="1.352377670737732" />
+      <entry key="S2" value="3.8188122145171373" />
+      <entry key="S5" value="7.978899715656977" />
+      <entry key="S10" value="12.805398696150716" />
+      <entry key="S30" value="25.64090378885632" />
+      <entry key="S60" value="39.69766915951129" />
+      <entry key="M2" value="63.45040701438935" />
+      <entry key="M5" value="113.33994536282472" />
+      <entry key="M10" value="155.71942066884594" />
+      <entry key="M15" value="183.3093293817145" />
+      <entry key="M30" value="245.65459172719758" />
+      <entry key="H1" value="327.00901278959725" />
+      <entry key="H2" value="405.87165369903323" />
+      <entry key="H4" value="463.9161881565863" />
+      <entry key="D1" value="526.5367806994633" />
+      <entry key="W1" value="538.8896781631752" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.5018973558032202E-149" />
-      <entry key="S5" value="2.9593926147873706E-60" />
-      <entry key="S10" value="1.784963953666191E-30" />
-      <entry key="S30" value="1.8101681815013734E-10" />
-      <entry key="S60" value="2.4578012898792092E-5" />
-      <entry key="M2" value="0.0109504074804522" />
-      <entry key="M5" value="0.5206572476465364" />
-      <entry key="M10" value="2.5344294156767586" />
-      <entry key="M15" value="4.937983486062744" />
-      <entry key="M30" value="10.696092202045659" />
-      <entry key="H1" value="16.433987472682926" />
-      <entry key="H2" value="20.594936380599766" />
-      <entry key="H4" value="23.118835134576383" />
-      <entry key="D1" value="25.492724785529354" />
-      <entry key="W1" value="25.926836921517047" />
+      <entry key="S2" value="6.029809007521053E-214" />
+      <entry key="S5" value="5.153727152287129E-86" />
+      <entry key="S10" value="2.2701821862047803E-43" />
+      <entry key="S30" value="6.114222294615758E-15" />
+      <entry key="S60" value="8.886645716806857E-8" />
+      <entry key="M2" value="6.533187835429573E-4" />
+      <entry key="M5" value="0.28981654752296165" />
+      <entry key="M10" value="2.695497389371053" />
+      <entry key="M15" value="6.0991015471361525" />
+      <entry key="M30" value="15.491003459112164" />
+      <entry key="H1" value="26.75597860847938" />
+      <entry key="H2" value="36.178033721910865" />
+      <entry key="H4" value="42.410193612944035" />
+      <entry key="D1" value="48.62705516477199" />
+      <entry key="W1" value="49.80101947764973" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9668475678537687" />
-      <entry key="MS500" value="1.2827798023522057" />
-      <entry key="S2" value="2.417143930417352" />
-      <entry key="S5" value="3.18472364016407" />
-      <entry key="S10" value="3.5526212712069327" />
-      <entry key="S30" value="3.8409185324665236" />
-      <entry key="S60" value="3.9200401025163414" />
-      <entry key="M2" value="4.183272131646349" />
-      <entry key="M5" value="11.96957388821261" />
-      <entry key="M10" value="36.33851119983023" />
-      <entry key="M15" value="60.75864943470046" />
-      <entry key="M30" value="117.96470133831117" />
-      <entry key="H1" value="183.08173108692543" />
-      <entry key="H2" value="238.10406536190746" />
-      <entry key="H4" value="275.1347045566301" />
-      <entry key="D1" value="312.6398206908669" />
-      <entry key="W1" value="319.78662337730896" />
+      <entry key="MS100" value="0.9734020999010908" />
+      <entry key="MS500" value="1.3448516163724764" />
+      <entry key="S2" value="3.813009505808039" />
+      <entry key="S5" value="7.973787269790428" />
+      <entry key="S10" value="12.801195658104275" />
+      <entry key="S30" value="25.637988868959244" />
+      <entry key="S60" value="39.695349355497015" />
+      <entry key="M2" value="63.449091820536324" />
+      <entry key="M5" value="113.62664165492772" />
+      <entry key="M10" value="158.40639491624717" />
+      <entry key="M15" value="189.39625513343697" />
+      <entry key="M30" value="261.1297122369118" />
+      <entry key="H1" value="353.75011630595014" />
+      <entry key="H2" value="442.0389271759227" />
+      <entry key="H4" value="506.3198072311277" />
+      <entry key="D1" value="575.1625299286272" />
+      <entry key="W1" value="588.6905052321481" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -115,6 +123,7 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Cucumber Java.Scenario: [TC-01] Valid details allows login.executor": "Run",
+    "Cucumber Java.Scenario: [TC-03] Successfully Check courses.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -142,7 +151,7 @@
       <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework\Api-Test-Framework\src\test\resources\features\" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Scenario: [TC-03] Successfully Check courses">
     <configuration name="Scenario: [TC-01] Valid details allows login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/authentication/post_auth.feature" />
@@ -162,8 +171,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: [TC-03] Successfully Check courses" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_course.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Api-Test-Framework" />
+      <option name="NAME_FILTER" value="^\[TC-03\] Successfully Check courses$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-03\] Successfully Check courses$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC-03] Successfully Check courses" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: [TC-03] Successfully Check courses" />
         <item itemvalue="Cucumber Java.Scenario: [TC-01] Valid details allows login" />
       </list>
     </recent_temporary>
@@ -212,6 +241,16 @@
     <MESSAGE value="Add to Main" />
     <MESSAGE value="update: markdown report" />
     <option name="LAST_COMMIT_MESSAGE" value="update: markdown report" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.concurrent.ExecutionException" package="java.util.concurrent" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

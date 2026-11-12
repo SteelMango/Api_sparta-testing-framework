@@ -1,11 +1,6 @@
 package steps.spartans;
 
 public class get_idSpartanStepdefs {
-    @io.cucumber.java.en.Given("^I am on the spartan api$")
-    public void iAmOnTheSpartanApi() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
 
     @io.cucumber.java.en.When("^I enter a valid id$")
     public void iEnterAValidId() {
@@ -19,7 +14,7 @@ public class get_idSpartanStepdefs {
         throw new io.cucumber.java.PendingException();
     }
 
-    @io.cucumber.java.en.When("^I enter an invalid id$")
+    @io.cucumber.java.en.When("^I enter an invalid id for the spartan api$")
     public void iEnterAnInvalidId() {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
