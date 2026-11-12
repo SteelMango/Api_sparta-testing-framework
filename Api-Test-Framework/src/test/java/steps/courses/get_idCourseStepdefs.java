@@ -4,65 +4,91 @@ import io.cucumber.java.PendingException;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import static io.restassured.RestAssured.when;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class get_idCourseStepdefs {
+    private final String url = "http://localhost:8080/api/Courses/";
+    private Response response;
+
     @Given("^I am on the courses id api$")
     public void iAmOnTheCoursesIdApi() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        RestAssured.baseURI = "http://localhost:8080/";
     }
 
     @When("^I enter letters$")
     public void iEnterLetters() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        String letters = "TEST";
+        String letter_url = url + letters;
+
+        response = when().get(letter_url);
     }
 
     @Then("^I should get an error about invalid input$")
     public void iShouldGetAnErrorAboutInvalidInput() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+
+        int actual = response.getStatusCode();
+        assertEquals(400, actual);
+        assertEquals("One or more validation errors occurred.", response.jsonPath().getString("title"));
+
     }
 
     @When("^I enter a negative number in the query$")
     public void iEnterANegativeNumberInTheQuery() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        int negativeNumber = -1;
+        String negativeNumberUrl = url + negativeNumber;
+        response = when().get(negativeNumberUrl);
+
     }
 
     @Then("^An error about negative numbers should appear$")
     public void anErrorAboutNegativeNumbersShouldAppear() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        assertEquals(404, response.getStatusCode());
+
     }
 
     @When("^I enter an invalid character$")
     public void iEnterAnInvalidCharacter() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        response = when().get(url+'%');
     }
 
     @Then("^An error should appear$")
     public void anErrorShouldAppear() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        String expected = "One or more validation errors occurred.";
+        assertEquals(expected, response.jsonPath().getString("title"));
     }
+
+
+
+
+
+
+
+
+
 
     @When("^I enter an invalid id query$")
     public void iEnterAnInvalidIdQuery() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        response = when().get(url+6);
     }
 
+
+
+
+
+
+
+
+
     @Then("^I should get a http code (\\d+)$")
-    public void iShouldGetAHttpCode(int arg0) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void iShouldGetAHttpCode(int code) {
+        assertEquals(code,response.getStatusCode());
     }
 
     @When("^I enter a valid id query$")
     public void iEnterAValidIdQuery() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        response = when().get(url+1);
     }
 }
