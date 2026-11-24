@@ -7,7 +7,7 @@
     <list default="true" id="b2eccdef-68a9-4fe7-be3b-345c6a4c1fd2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/courses/get_idCourseStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/courses/get_idCourseStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/authentication/post_authStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/authentication/post_authStepdefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,68 +17,68 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/authentication" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0002099103421698" />
-      <entry key="S2" value="1.1814749086450482" />
-      <entry key="S5" value="2.0589898314739417" />
-      <entry key="S10" value="3.0291696216900066" />
-      <entry key="S30" value="4.265277906883664" />
-      <entry key="S60" value="5.243169207292646" />
-      <entry key="M2" value="6.982606888843359" />
-      <entry key="M5" value="11.034709963530863" />
-      <entry key="M10" value="15.224673430826604" />
-      <entry key="M15" value="17.632208564313707" />
-      <entry key="M30" value="23.05599512121355" />
-      <entry key="H1" value="36.605322789430375" />
-      <entry key="H2" value="57.91835348142088" />
-      <entry key="H4" value="77.89528092569023" />
-      <entry key="D1" value="102.80826684578757" />
-      <entry key="W1" value="108.08698775458654" />
+      <entry key="MS100" value="6.487723701643124E-4" />
+      <entry key="MS500" value="0.23036604654968632" />
+      <entry key="S2" value="0.6936496078980805" />
+      <entry key="S5" value="1.0045789676772585" />
+      <entry key="S10" value="1.7419647161135212" />
+      <entry key="S30" value="3.8998338419910454" />
+      <entry key="S60" value="6.060814392948045" />
+      <entry key="M2" value="10.36363977940536" />
+      <entry key="M5" value="22.56339007988099" />
+      <entry key="M10" value="47.37777782978303" />
+      <entry key="M15" value="78.72125502965812" />
+      <entry key="M30" value="168.99433051635557" />
+      <entry key="H1" value="294.1202147600304" />
+      <entry key="H2" value="420.1312775527591" />
+      <entry key="H4" value="516.3929974193989" />
+      <entry key="D1" value="623.7073201495405" />
+      <entry key="W1" value="645.2978343378893" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.3487008974729598E-6" />
-      <entry key="MS500" value="0.07218653689473772" />
-      <entry key="S2" value="0.9754476531892814" />
-      <entry key="S5" value="2.1160948911434083" />
-      <entry key="S10" value="2.867339993829019" />
-      <entry key="S30" value="3.697314594897604" />
-      <entry key="S60" value="4.755370178762002" />
-      <entry key="M2" value="6.976338558719426" />
-      <entry key="M5" value="11.67591698258663" />
-      <entry key="M10" value="15.720974768300009" />
-      <entry key="M15" value="17.840482373280384" />
-      <entry key="M30" value="21.693320886291342" />
-      <entry key="H1" value="28.83954277764735" />
-      <entry key="H2" value="38.96749914252886" />
-      <entry key="H4" value="48.10139454444267" />
-      <entry key="D1" value="59.25579839779652" />
-      <entry key="W1" value="61.59593650984517" />
+      <entry key="MS100" value="1.0000001639773628" />
+      <entry key="MS500" value="1.0439500854311794" />
+      <entry key="S2" value="1.4914415188849723" />
+      <entry key="S5" value="2.1970035890834074" />
+      <entry key="S10" value="3.101518646014604" />
+      <entry key="S30" value="5.025953527708356" />
+      <entry key="S60" value="6.832312941213722" />
+      <entry key="M2" value="9.879096903322015" />
+      <entry key="M5" value="17.913950397730996" />
+      <entry key="M10" value="26.384338417635714" />
+      <entry key="M15" value="31.858666387606068" />
+      <entry key="M30" value="43.501824746838665" />
+      <entry key="H1" value="58.323109932631" />
+      <entry key="H2" value="72.43961071765301" />
+      <entry key="H4" value="82.65509676113628" />
+      <entry key="D1" value="93.5145301089997" />
+      <entry key="W1" value="95.63786010249903" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.959264145090489" />
-      <entry key="MS500" value="1.023952212613051" />
-      <entry key="S2" value="1.9207896892607614" />
-      <entry key="S5" value="3.9003318903544058" />
-      <entry key="S10" value="5.682153734082" />
-      <entry key="S30" value="7.858108692012437" />
-      <entry key="S60" value="9.924660544298854" />
-      <entry key="M2" value="13.899703023622516" />
-      <entry key="M5" value="22.667559481173022" />
-      <entry key="M10" value="30.91558862425482" />
-      <entry key="M15" value="35.44961323678071" />
-      <entry key="M30" value="44.73418066623941" />
-      <entry key="H1" value="65.43263237622241" />
-      <entry key="H2" value="96.87612027475535" />
-      <entry key="H4" value="125.9901358792964" />
-      <entry key="D1" value="162.06263054558792" />
-      <entry key="W1" value="169.68270891942672" />
+      <entry key="MS100" value="0.05010770110983968" />
+      <entry key="MS500" value="0.702226514992827" />
+      <entry key="S2" value="1.8601925662791883" />
+      <entry key="S5" value="2.942910182317989" />
+      <entry key="S10" value="4.595154041467768" />
+      <entry key="S30" value="8.680161448383867" />
+      <entry key="S60" value="12.655284667268832" />
+      <entry key="M2" value="20.035522904037204" />
+      <entry key="M5" value="40.32428469515352" />
+      <entry key="M10" value="73.65353607656505" />
+      <entry key="M15" value="110.49459981186698" />
+      <entry key="M30" value="212.44047091303548" />
+      <entry key="H1" value="352.40683960823014" />
+      <entry key="H2" value="492.5481275950596" />
+      <entry key="H4" value="599.0349597177894" />
+      <entry key="D1" value="717.2193338059088" />
+      <entry key="W1" value="740.9353255363609" />
     </decayedShown>
   </component>
   <component name="ProjectLevelVcsManager">
@@ -87,16 +87,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cucumber Java.Feature: get_idCourse.executor": "Run",
+    "Cucumber Java.Scenario: [TC-01] Valid details allows login.executor": "Run",
+    "Cucumber Java.Scenario: [TC-02] Invalid details prevents login.executor": "Run",
+    "Cucumber Java.Scenario: [TC-03] Successfully Check courses.executor": "Run",
     "Cucumber Java.Scenario: [TC-04] Using letters.executor": "Run",
     "Cucumber Java.Scenario: [TC-05] Using negative number.executor": "Run",
     "Cucumber Java.Scenario: [TC-06] Using invalid character.executor": "Run",
     "Cucumber Java.Scenario: [TC-07] Find course with invalid ID.executor": "Run",
     "Cucumber Java.Scenario: [TC-08] Find course with valid ID.executor": "Run",
-    "git-widget-placeholder": "feature/courses",
+    "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Feature: get_idCourse">
+  <component name="RunManager" selected="Cucumber Java.Scenario: [TC-02] Invalid details prevents login">
     <configuration name="Feature: get_idCourse" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_idCourse.feature" />
@@ -104,6 +107,63 @@
       <module name="Api-Test-Framework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
       <option name="SUGGESTED_NAME" value="Feature: get_idCourse" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: [TC-01] Valid details allows login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/authentication/post_auth.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Api-Test-Framework" />
+      <option name="NAME_FILTER" value="^\[TC-01\] Valid details allows login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-01\] Valid details allows login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC-01] Valid details allows login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: [TC-02] Invalid details prevents login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/authentication/post_auth.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Api-Test-Framework" />
+      <option name="NAME_FILTER" value="^\[TC-02\] Invalid details prevents login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-02\] Invalid details prevents login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC-02] Invalid details prevents login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: [TC-03] Successfully Check courses" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_course.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Api-Test-Framework" />
+      <option name="NAME_FILTER" value="^\[TC-03\] Successfully Check courses$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-03\] Successfully Check courses$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC-03] Successfully Check courses" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -134,74 +194,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: [TC-06] Using invalid character" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_idCourse.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC-06\] Using invalid character$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-06\] Using invalid character$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC-06] Using invalid character" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: [TC-07] Find course with invalid ID" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_idCourse.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC-07\] Find course with invalid ID$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-07\] Find course with invalid ID$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC-07] Find course with invalid ID" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: [TC-08] Find course with valid ID" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_idCourse.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC-08\] Find course with valid ID$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-08\] Find course with valid ID$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC-08] Find course with valid ID" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: [TC-02] Invalid details prevents login" />
+        <item itemvalue="Cucumber Java.Scenario: [TC-01] Valid details allows login" />
+        <item itemvalue="Cucumber Java.Scenario: [TC-03] Successfully Check courses" />
         <item itemvalue="Cucumber Java.Feature: get_idCourse" />
         <item itemvalue="Cucumber Java.Scenario: [TC-04] Using letters" />
-        <item itemvalue="Cucumber Java.Scenario: [TC-07] Find course with invalid ID" />
-        <item itemvalue="Cucumber Java.Scenario: [TC-06] Using invalid character" />
-        <item itemvalue="Cucumber Java.Scenario: [TC-08] Find course with valid ID" />
       </list>
     </recent_temporary>
   </component>
   <component name="TaskManager">
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.concurrent.ExecutionException" package="java.util.concurrent" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
