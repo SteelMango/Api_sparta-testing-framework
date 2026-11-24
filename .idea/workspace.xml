@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="Add to Main">
-      <change beforePath="$PROJECT_DIR$/ASPNET_API_Test_Report.md" beforeDir="false" afterPath="$PROJECT_DIR$/ASPNET_API_Test_Report.md" afterDir="false" />
+    <list default="true" id="197bc631-bc08-437e-b4ea-a37cfdb38bfa" name="Changes" comment="feat: created all the test cases">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/authentication/post_authStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/authentication/post_authStepdefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,69 +34,69 @@
     &quot;assignee&quot;: &quot;SteelMango&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SteelMango/Api_sparta-testing-framework.git",
-    "accountId": "99ab6c28-97c6-442a-bd0f-6095f4b20ccb"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SteelMango/Api_sparta-testing-framework.git&quot;,
+    &quot;accountId&quot;: &quot;99ab6c28-97c6-442a-bd0f-6095f4b20ccb&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000000000342" />
-      <entry key="S30" value="1.0002231506508805" />
-      <entry key="S60" value="1.0865505101446327" />
-      <entry key="M2" value="2.9080557160322407" />
-      <entry key="M5" value="15.678390694566678" />
-      <entry key="M10" value="35.640726388541296" />
-      <entry key="M15" value="51.60038933903066" />
-      <entry key="M30" value="87.25706495316868" />
-      <entry key="H1" value="126.77957231350653" />
-      <entry key="H2" value="158.88502036522434" />
-      <entry key="H4" value="179.80386041776677" />
-      <entry key="D1" value="200.46313095484703" />
-      <entry key="W1" value="204.34302141068224" />
+      <entry key="MS100" value="2.9066244900299896E-176" />
+      <entry key="MS500" value="7.810481097626063E-36" />
+      <entry key="S2" value="1.6717427422614045E-9" />
+      <entry key="S5" value="3.085089577544567E-4" />
+      <entry key="S10" value="0.017564477062818946" />
+      <entry key="S30" value="0.26881445483514893" />
+      <entry key="S60" value="0.7341159474833882" />
+      <entry key="M2" value="2.09971682864573" />
+      <entry key="M5" value="14.467125547920935" />
+      <entry key="M10" value="56.42308814791698" />
+      <entry key="M15" value="97.9291143363305" />
+      <entry key="M30" value="192.4346929591696" />
+      <entry key="H1" value="306.5392961425756" />
+      <entry key="H2" value="414.6570338266992" />
+      <entry key="H4" value="494.59561867001077" />
+      <entry key="D1" value="581.723445830271" />
+      <entry key="W1" value="599.0377249981685" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="8.531421474684674E-149" />
-      <entry key="S5" value="5.921185630793019E-60" />
-      <entry key="S10" value="2.4346578034640173E-30" />
-      <entry key="S30" value="1.5868183941802854E-10" />
-      <entry key="S60" value="2.7130132650539217E-5" />
-      <entry key="M2" value="0.018337368092924092" />
-      <entry key="M5" value="1.0987120680038356" />
-      <entry key="M10" value="4.436686069835482" />
-      <entry key="M15" value="7.116827083584826" />
-      <entry key="M30" value="11.519679439475867" />
-      <entry key="H1" value="14.745655677483771" />
-      <entry key="H2" value="16.72170565765027" />
-      <entry key="H4" value="17.819677315480984" />
-      <entry key="D1" value="18.797239876602507" />
-      <entry key="W1" value="18.97088192869424" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000013998" />
+      <entry key="S2" value="1.001088286743534" />
+      <entry key="S5" value="1.0705576096368525" />
+      <entry key="S10" value="1.4039116535991523" />
+      <entry key="S30" value="3.170521225983553" />
+      <entry key="S60" value="4.735898804118774" />
+      <entry key="M2" value="6.383023356292505" />
+      <entry key="M5" value="8.509177445113437" />
+      <entry key="M10" value="10.422665655385158" />
+      <entry key="M15" value="12.691915372938459" />
+      <entry key="M30" value="20.624896799492333" />
+      <entry key="H1" value="32.49993174691804" />
+      <entry key="H2" value="43.786704779471066" />
+      <entry key="H4" value="51.781372265225116" />
+      <entry key="D1" value="60.115211755989876" />
+      <entry key="W1" value="61.725886086220186" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.027776333786455314" />
-      <entry key="MS500" value="0.48835426448111363" />
-      <entry key="S2" value="0.8359566292132224" />
-      <entry key="S5" value="0.930836701315027" />
-      <entry key="S10" value="0.9647987879942083" />
-      <entry key="S30" value="0.9883489535768166" />
-      <entry key="S60" value="1.0806174794546788" />
-      <entry key="M2" value="2.923055846793875" />
-      <entry key="M5" value="16.767798996738" />
-      <entry key="M10" value="40.05943277373592" />
-      <entry key="M15" value="58.69703107147021" />
-      <entry key="M30" value="98.75837345030975" />
-      <entry key="H1" value="141.5122406373802" />
-      <entry key="H2" value="175.5988845308461" />
-      <entry key="H4" value="197.61921071438056" />
-      <entry key="D1" value="219.25958610538896" />
-      <entry key="W1" value="223.31378957635343" />
+      <entry key="MS100" value="5.78199984172973E-6" />
+      <entry key="MS500" value="0.08962220300107938" />
+      <entry key="S2" value="0.5476948976615401" />
+      <entry key="S5" value="0.8380607511396679" />
+      <entry key="S10" value="1.2367662002005975" />
+      <entry key="S30" value="3.248310888791383" />
+      <entry key="S60" value="5.317627195669411" />
+      <entry key="M2" value="8.376366815134459" />
+      <entry key="M5" value="22.91755777945948" />
+      <entry key="M10" value="66.80973245019794" />
+      <entry key="M15" value="110.59237919862164" />
+      <entry key="M30" value="213.03701877620358" />
+      <entry key="H1" value="339.0209412404218" />
+      <entry key="H2" value="458.43083978874125" />
+      <entry key="H4" value="546.3691034333601" />
+      <entry key="D1" value="641.8370791249218" />
+      <entry key="W1" value="660.7633780851078" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -110,27 +111,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Scenario: [TC-01] Valid details allows login.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/authentication",
-    "git.auto.fetch.suggestion.counter": "3",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Cucumber Java.Scenario: [TC-01] Valid details allows login.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: [TC-03] Successfully Check courses.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RunCucumberTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/authentication&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;3&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework\Api-Test-Framework\src\test\java\steps\authentication" />
@@ -140,7 +144,7 @@
       <recent name="C:\Users\Penel\Documents\Api_sparta-testing-framework\Api-Test-Framework\src\test\resources\features\" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Scenario: [TC-01] Valid details allows login">
     <configuration name="Scenario: [TC-01] Valid details allows login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/authentication/post_auth.feature" />
@@ -160,8 +164,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: [TC-03] Successfully Check courses" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_course.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Api-Test-Framework" />
+      <option name="NAME_FILTER" value="^\[TC-03\] Successfully Check courses$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-03\] Successfully Check courses$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC-03] Successfully Check courses" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api-Test-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.RunCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: [TC-01] Valid details allows login" />
+        <item itemvalue="JUnit.RunCucumberTest" />
+        <item itemvalue="Cucumber Java.Scenario: [TC-03] Successfully Check courses" />
         <item itemvalue="Cucumber Java.Scenario: [TC-01] Valid details allows login" />
       </list>
     </recent_temporary>
@@ -208,7 +249,9 @@
     <MESSAGE value="refactor: changed the folder layout to maven layout" />
     <MESSAGE value="fix: wrong file names" />
     <MESSAGE value="Add to Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add to Main" />
+    <MESSAGE value="update: markdown report" />
+    <MESSAGE value="docs: added information to the README.md and contrains one passing test" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: added information to the README.md and contrains one passing test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

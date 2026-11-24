@@ -7,6 +7,48 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class post_authStepdefs {
+
+
+
+    public void i_am_on_the_login_page() {}
+    public void i_enter_valid_username() {}
+    public void i_enter_valid_password() {}
+    public void i_get_status_code() {}
+
+    public void i_enter_invalid_username() {}
+    public void i_enter_invalid_password() {}
+    public void i_should_get_an_error_for_invalid_login_details() {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     @Given("I am on the login endpoint")
     public void iAmOnTheLoginEndpoint() {
         // Write code here that turns the phrase above into concrete actions
