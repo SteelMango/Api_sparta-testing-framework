@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2eccdef-68a9-4fe7-be3b-345c6a4c1fd2" name="Changes" comment="DOC: finished passing get all spartan info">
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/post_spartanStepdefs.java" afterDir="false" />
+    <list default="true" id="b2eccdef-68a9-4fe7-be3b-345c6a4c1fd2" name="Changes" comment="DOC: Finished POST and DELETE stepdefs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/commonStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/commonStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/delete_idSpartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/delete_idSpartanStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_idSpartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_idSpartanStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,61 +43,61 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.064541472951763" />
-      <entry key="MS500" value="1.7728748623198713" />
-      <entry key="S2" value="2.5365617936279197" />
-      <entry key="S5" value="2.7959140965164515" />
-      <entry key="S10" value="2.8945231927622554" />
-      <entry key="S30" value="3.0324641491995563" />
-      <entry key="S60" value="3.6737328294796248" />
-      <entry key="M2" value="5.191502754585728" />
-      <entry key="M5" value="7.597487333078969" />
-      <entry key="M10" value="12.29742059843678" />
-      <entry key="M15" value="21.54017009232724" />
-      <entry key="M30" value="70.44159943262429" />
-      <entry key="H1" value="199.39464455225522" />
-      <entry key="H2" value="403.50769233601505" />
-      <entry key="H4" value="608.8512255024352" />
-      <entry key="D1" value="887.0142769450204" />
-      <entry key="W1" value="949.1416535379335" />
+      <entry key="MS100" value="5.441433082830879E-28" />
+      <entry key="MS500" value="3.5248663819495072E-6" />
+      <entry key="S2" value="0.04369607241565979" />
+      <entry key="S5" value="0.37693274336531746" />
+      <entry key="S10" value="1.1899909481557882" />
+      <entry key="S30" value="5.043406451069875" />
+      <entry key="S60" value="9.94226691457437" />
+      <entry key="M2" value="16.136378357310434" />
+      <entry key="M5" value="26.99134529796061" />
+      <entry key="M10" value="42.10545202047489" />
+      <entry key="M15" value="56.94220398379087" />
+      <entry key="M30" value="103.72772802910718" />
+      <entry key="H1" value="217.85719364495387" />
+      <entry key="H2" value="424.2943157683454" />
+      <entry key="H4" value="656.6797780249395" />
+      <entry key="D1" value="999.6742271824278" />
+      <entry key="W1" value="1079.8650505828184" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.9755306714672534E-274" />
-      <entry key="S5" value="7.233104760737292E-110" />
-      <entry key="S10" value="5.720662011972863E-55" />
-      <entry key="S30" value="2.4013173862510484E-18" />
-      <entry key="S60" value="3.624497670457365E-9" />
-      <entry key="M2" value="1.7446595001058268E-4" />
-      <entry key="M5" value="0.19984771145230992" />
-      <entry key="M10" value="2.9803826127606357" />
-      <entry key="M15" value="8.455143478764969" />
-      <entry key="M30" value="30.513137222221022" />
-      <entry key="H1" value="71.25281398725394" />
-      <entry key="H2" value="120.16415979483966" />
-      <entry key="H4" value="161.69559878047212" />
-      <entry key="D1" value="211.69065462136425" />
-      <entry key="W1" value="222.18616788095912" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000119368715" />
+      <entry key="S2" value="1.0105202348423004" />
+      <entry key="S5" value="1.1828089822684615" />
+      <entry key="S10" value="1.5505216917963027" />
+      <entry key="S30" value="2.6201643306510176" />
+      <entry key="S60" value="4.02367022237436" />
+      <entry key="M2" value="5.980410018608184" />
+      <entry key="M5" value="10.34852488553275" />
+      <entry key="M10" value="18.950004456937286" />
+      <entry key="M15" value="27.434080145422442" />
+      <entry key="M30" value="51.279840374362315" />
+      <entry key="H1" value="94.38866030811755" />
+      <entry key="H2" value="152.38978849343852" />
+      <entry key="H4" value="206.39546691982633" />
+      <entry key="D1" value="276.13695795979544" />
+      <entry key="W1" value="291.3518373164941" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0149809514903656" />
-      <entry key="MS500" value="1.7578790976148213" />
-      <entry key="S2" value="2.5314783658907944" />
-      <entry key="S5" value="2.7936997596892588" />
-      <entry key="S10" value="2.893381586910277" />
-      <entry key="S30" value="3.03191173211478" />
-      <entry key="S60" value="3.672699102627178" />
-      <entry key="M2" value="5.190236312185297" />
-      <entry key="M5" value="7.795270869626919" />
-      <entry key="M10" value="15.268709052034056" />
-      <entry key="M15" value="29.977575803755787" />
-      <entry key="M30" value="100.91993618026298" />
-      <entry key="H1" value="270.6048766746748" />
-      <entry key="H2" value="523.635119868134" />
-      <entry key="H4" value="770.5217764249195" />
-      <entry key="D1" value="1098.6993890821375" />
-      <entry key="W1" value="1171.3269880682917" />
+      <entry key="MS100" value="0.013888166893227662" />
+      <entry key="MS500" value="0.42513919029578406" />
+      <entry key="S2" value="0.8545159197803636" />
+      <entry key="S5" value="1.4363203092872587" />
+      <entry key="S10" value="2.614195816958187" />
+      <entry key="S30" value="7.495013177633422" />
+      <entry key="S60" value="13.782683736402918" />
+      <entry key="M2" value="21.95585343877611" />
+      <entry key="M5" value="37.22416182905223" />
+      <entry key="M10" value="60.9612437088962" />
+      <entry key="M15" value="84.29239673101853" />
+      <entry key="M30" value="154.937379558963" />
+      <entry key="H1" value="312.1848125641105" />
+      <entry key="H2" value="576.6356752367182" />
+      <entry key="H4" value="863.0425176861347" />
+      <entry key="D1" value="1275.8038613394597" />
+      <entry key="W1" value="1371.2157826422535" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -121,6 +117,7 @@
     "Cucumber Java.Feature: get_idCourse.executor": "Run",
     "Cucumber Java.Feature: post_spartan.executor": "Run",
     "Cucumber Java.Scenario: [TC - 009] Deleting a non-existent spartan.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 010] Successfully deleting a spartan.executor": "Run",
     "Cucumber Java.Scenario: [TC - 011] Get Spartan information based off valid id.executor": "Run",
     "Cucumber Java.Scenario: [TC - 013] Able to sucessfully get all spartan information.executor": "Run",
     "Cucumber Java.Scenario: [TC - 014] Successfully creates a new spartan.executor": "Run",
@@ -143,7 +140,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Feature: post_spartan">
+  <component name="RunManager" selected="Cucumber Java.Scenario: [TC - 009] Deleting a non-existent spartan">
     <configuration name="Feature: post_spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" />
@@ -162,14 +159,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: [TC - 011] Get Spartan information based off valid id" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: [TC - 009] Deleting a non-existent spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/get_idSpartan.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC - 011\] Get Spartan information based off valid id$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 011\] Get Spartan information based off valid id$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC - 011] Get Spartan information based off valid id" />
+      <option name="NAME_FILTER" value="^\[TC - 009\] Deleting a non-existent spartan$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 009\] Deleting a non-existent spartan$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC - 009] Deleting a non-existent spartan" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -181,14 +178,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: [TC - 013] Able to sucessfully get all spartan information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: [TC - 010] Successfully deleting a spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/get_spartan.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC - 013\] Able to sucessfully get all spartan information$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 013\] Able to sucessfully get all spartan information$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC - 013] Able to sucessfully get all spartan information" />
+      <option name="NAME_FILTER" value="^\[TC - 010\] Successfully deleting a spartan$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 010\] Successfully deleting a spartan$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC - 010] Successfully deleting a spartan" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -240,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: [TC - 009] Deleting a non-existent spartan" />
+        <item itemvalue="Cucumber Java.Scenario: [TC - 010] Successfully deleting a spartan" />
         <item itemvalue="Cucumber Java.Feature: post_spartan" />
         <item itemvalue="Cucumber Java.Scenario: [TC - 015] Create a spartan with an already existing id" />
         <item itemvalue="Cucumber Java.Scenario: [TC - 014] Successfully creates a new spartan" />
-        <item itemvalue="Cucumber Java.Scenario: [TC - 013] Able to sucessfully get all spartan information" />
-        <item itemvalue="Cucumber Java.Scenario: [TC - 011] Get Spartan information based off valid id" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +269,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DOC: finished passing authentication step defs" />
     <MESSAGE value="DOC: finished passing get all spartan info" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOC: finished passing get all spartan info" />
+    <MESSAGE value="DOC: Finished POST and DELETE stepdefs" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOC: Finished POST and DELETE stepdefs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

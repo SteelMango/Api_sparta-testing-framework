@@ -35,9 +35,10 @@ Feature: Spartans
     "graduated": <graduated>
   }
     """
+    And I find the ID of the created Spartan
     When I enter a valid id to delete
     Then I should get http code 200
 
     Examples:
-    | firstName | lastName | university               | degree               | courseName        | streamName | trainer        | startDate                | endDate                  | graduated |
-    | Harriet   | Whitmore | University of Nottingham | Software Engineering | Java SDET 2026-11 | Java SDET  | Jonathan Pryce | 2026-11-02T09:00:00.000Z | 2027-01-22T17:00:00.000Z | false     |
+      | firstName     | lastName                 | university                               | degree                                   | courseName                  | streamName             | trainer                      | startDate                | endDate                  | graduated |
+      | Bartholomewzx | QuackenbushFizzlewhomp  | Intergalactic Polytechnic of Lower Mars  | BSc Competitive Spoon Juggling with Honours | Advanced Toaster Diplomacy 9000 | Interdimensional QA    | Sir Reginald Wobblebottom III | 2026-11-25T09:00:00.000Z | 2027-02-14T17:00:00.000Z | false     |
