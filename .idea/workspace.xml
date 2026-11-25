@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2eccdef-68a9-4fe7-be3b-345c6a4c1fd2" name="Changes" comment="DOC: finished passing authentication step defs">
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/utils/tokenHelper.java" afterDir="false" />
+    <list default="true" id="b2eccdef-68a9-4fe7-be3b-345c6a4c1fd2" name="Changes" comment="DOC: finished passing get all spartan info">
+      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/post_spartanStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/commonStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/commonStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_spartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_spartanStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/delete_idSpartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/delete_idSpartanStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_idSpartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_idSpartanStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,72 +33,98 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SteelMango"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SteelMango/Api_sparta-testing-framework.git",
+    "accountId": "99ab6c28-97c6-442a-bd0f-6095f4b20ccb"
+  }
+}]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.6667680123045256E-71" />
-      <entry key="MS500" value="1.1340134543589109E-14" />
-      <entry key="S2" value="5.424932774981488E-4" />
-      <entry key="S5" value="0.07714818897473742" />
-      <entry key="S10" value="0.4573183585631317" />
-      <entry key="S30" value="2.383072951134344" />
-      <entry key="S60" value="4.8107462409458845" />
-      <entry key="M2" value="8.727934528716323" />
-      <entry key="M5" value="20.80411456913041" />
-      <entry key="M10" value="47.065239671110966" />
-      <entry key="M15" value="76.48121523644417" />
-      <entry key="M30" value="167.31008549060684" />
-      <entry key="H1" value="316.42854180144116" />
-      <entry key="H2" value="488.19625646201007" />
-      <entry key="H4" value="631.1161018862825" />
-      <entry key="D1" value="800.6265351404943" />
-      <entry key="W1" value="835.9117701541464" />
+      <entry key="MS100" value="1.064541472951763" />
+      <entry key="MS500" value="1.7728748623198713" />
+      <entry key="S2" value="2.5365617936279197" />
+      <entry key="S5" value="2.7959140965164515" />
+      <entry key="S10" value="2.8945231927622554" />
+      <entry key="S30" value="3.0324641491995563" />
+      <entry key="S60" value="3.6737328294796248" />
+      <entry key="M2" value="5.191502754585728" />
+      <entry key="M5" value="7.597487333078969" />
+      <entry key="M10" value="12.29742059843678" />
+      <entry key="M15" value="21.54017009232724" />
+      <entry key="M30" value="70.44159943262429" />
+      <entry key="H1" value="199.39464455225522" />
+      <entry key="H2" value="403.50769233601505" />
+      <entry key="H4" value="608.8512255024352" />
+      <entry key="D1" value="887.0142769450204" />
+      <entry key="W1" value="949.1416535379335" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000095608" />
-      <entry key="S2" value="1.0033898844413345" />
-      <entry key="S5" value="1.2423520059236923" />
-      <entry key="S10" value="2.230398080659245" />
-      <entry key="S30" value="5.441186021908719" />
-      <entry key="S60" value="7.783242765976298" />
-      <entry key="M2" value="10.38901725778717" />
-      <entry key="M5" value="16.198602228043214" />
-      <entry key="M10" value="26.747654953117113" />
-      <entry key="M15" value="37.10637551655718" />
-      <entry key="M30" value="61.67541163617675" />
-      <entry key="H1" value="91.23816132694442" />
-      <entry key="H2" value="118.97186789670081" />
-      <entry key="H4" value="139.44367598524144" />
-      <entry key="D1" value="161.79077086425966" />
-      <entry key="W1" value="166.2387344274074" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.9755306714672534E-274" />
+      <entry key="S5" value="7.233104760737292E-110" />
+      <entry key="S10" value="5.720662011972863E-55" />
+      <entry key="S30" value="2.4013173862510484E-18" />
+      <entry key="S60" value="3.624497670457365E-9" />
+      <entry key="M2" value="1.7446595001058268E-4" />
+      <entry key="M5" value="0.19984771145230992" />
+      <entry key="M10" value="2.9803826127606357" />
+      <entry key="M15" value="8.455143478764969" />
+      <entry key="M30" value="30.513137222221022" />
+      <entry key="H1" value="71.25281398725394" />
+      <entry key="H2" value="120.16415979483966" />
+      <entry key="H4" value="161.69559878047212" />
+      <entry key="D1" value="211.69065462136425" />
+      <entry key="W1" value="222.18616788095912" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.006661210091937158" />
-      <entry key="MS500" value="0.36703765901251995" />
-      <entry key="S2" value="0.7813860979128224" />
-      <entry key="S5" value="1.1914787422549824" />
-      <entry key="S10" value="2.549074621329542" />
-      <entry key="S30" value="7.673662672544445" />
-      <entry key="S60" value="12.451002760695042" />
-      <entry key="M2" value="18.99000176406552" />
-      <entry key="M5" value="36.89491541155673" />
-      <entry key="M10" value="73.71007408786618" />
-      <entry key="M15" value="113.48904921519576" />
-      <entry key="M30" value="228.90284018641825" />
-      <entry key="H1" value="407.6062932082251" />
-      <entry key="H2" value="607.128940528396" />
-      <entry key="H4" value="770.536782190761" />
-      <entry key="D1" value="962.4128354844111" />
-      <entry key="W1" value="1002.1498474505388" />
+      <entry key="MS100" value="1.0149809514903656" />
+      <entry key="MS500" value="1.7578790976148213" />
+      <entry key="S2" value="2.5314783658907944" />
+      <entry key="S5" value="2.7936997596892588" />
+      <entry key="S10" value="2.893381586910277" />
+      <entry key="S30" value="3.03191173211478" />
+      <entry key="S60" value="3.672699102627178" />
+      <entry key="M2" value="5.190236312185297" />
+      <entry key="M5" value="7.795270869626919" />
+      <entry key="M10" value="15.268709052034056" />
+      <entry key="M15" value="29.977575803755787" />
+      <entry key="M30" value="100.91993618026298" />
+      <entry key="H1" value="270.6048766746748" />
+      <entry key="H2" value="523.635119868134" />
+      <entry key="H4" value="770.5217764249195" />
+      <entry key="D1" value="1098.6993890821375" />
+      <entry key="W1" value="1171.3269880682917" />
     </decayedShown>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3MbHSf8f34T6uSkyKb0J15OrJR6" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cucumber Java.Feature: get_idCourse.executor": "Run",
+    "Cucumber Java.Feature: post_spartan.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 009] Deleting a non-existent spartan.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 011] Get Spartan information based off valid id.executor": "Run",
     "Cucumber Java.Scenario: [TC - 013] Able to sucessfully get all spartan information.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 014] Successfully creates a new spartan.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 015] Create a spartan with an already existing id.executor": "Run",
     "Cucumber Java.Scenario: [TC-01] Valid details allows login.executor": "Run",
     "Cucumber Java.Scenario: [TC-02] Invalid details prevents login.executor": "Run",
     "Cucumber Java.Scenario: [TC-03] Successfully Check courses.executor": "Run",
@@ -104,18 +133,43 @@
     "Cucumber Java.Scenario: [TC-06] Using invalid character.executor": "Run",
     "Cucumber Java.Scenario: [TC-07] Find course with invalid ID.executor": "Run",
     "Cucumber Java.Scenario: [TC-08] Find course with valid ID.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "feature/spartans",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: [TC - 013] Able to sucessfully get all spartan information">
-    <configuration name="Feature: get_idCourse" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: post_spartan">
+    <configuration name="Feature: post_spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_idCourse.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Api-Test-Framework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
-      <option name="SUGGESTED_NAME" value="Feature: get_idCourse" />
+      <option name="SUGGESTED_NAME" value="Feature: post_spartan" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: [TC - 011] Get Spartan information based off valid id" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/get_idSpartan.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Api-Test-Framework" />
+      <option name="NAME_FILTER" value="^\[TC - 011\] Get Spartan information based off valid id$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 011\] Get Spartan information based off valid id$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC - 011] Get Spartan information based off valid id" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -146,14 +200,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: [TC-01] Valid details allows login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: [TC - 014] Successfully creates a new spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/authentication/post_auth.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC-01\] Valid details allows login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-01\] Valid details allows login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC-01] Valid details allows login" />
+      <option name="NAME_FILTER" value="^\[TC - 014\] Successfully creates a new spartan$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 014\] Successfully creates a new spartan$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC - 014] Successfully creates a new spartan" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -165,33 +219,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: [TC-02] Invalid details prevents login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: [TC - 015] Create a spartan with an already existing id" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/authentication/post_auth.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC-02\] Invalid details prevents login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-02\] Invalid details prevents login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC-02] Invalid details prevents login" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: [TC-03] Successfully Check courses" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_course.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC-03\] Successfully Check courses$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-03\] Successfully Check courses$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC-03] Successfully Check courses" />
+      <option name="NAME_FILTER" value="^\[TC - 015\] Create a spartan with an already existing id$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 015\] Create a spartan with an already existing id$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC - 015] Create a spartan with an already existing id" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -205,20 +240,39 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: post_spartan" />
+        <item itemvalue="Cucumber Java.Scenario: [TC - 015] Create a spartan with an already existing id" />
+        <item itemvalue="Cucumber Java.Scenario: [TC - 014] Successfully creates a new spartan" />
         <item itemvalue="Cucumber Java.Scenario: [TC - 013] Able to sucessfully get all spartan information" />
-        <item itemvalue="Cucumber Java.Feature: get_idCourse" />
-        <item itemvalue="Cucumber Java.Scenario: [TC-02] Invalid details prevents login" />
-        <item itemvalue="Cucumber Java.Scenario: [TC-01] Valid details allows login" />
-        <item itemvalue="Cucumber Java.Scenario: [TC-03] Successfully Check courses" />
+        <item itemvalue="Cucumber Java.Scenario: [TC - 011] Get Spartan information based off valid id" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2eccdef-68a9-4fe7-be3b-345c6a4c1fd2" name="Changes" comment="DOC: finished passing get all spartan info" />
+      <created>1795612349262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795612349262</updated>
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DOC: finished passing authentication step defs" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOC: finished passing authentication step defs" />
+    <MESSAGE value="DOC: finished passing get all spartan info" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOC: finished passing get all spartan info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,11 +281,6 @@
           <properties class="java.util.concurrent.ExecutionException" package="java.util.concurrent" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/get_spartanStepdefs.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

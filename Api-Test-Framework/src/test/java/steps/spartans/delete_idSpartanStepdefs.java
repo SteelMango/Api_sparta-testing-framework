@@ -1,16 +1,13 @@
 package steps.spartans;
 
 import io.cucumber.java.PendingException;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class delete_idSpartanStepdefs {
-    @Given("^I am on the delete api$")
-    public void iAmOnTheDeleteApi() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
+    // Remember about the auth token
 
     @When("^I enter an invalid id of a non-existent spartan$")
     public void iEnterAnInvalidIdOfANonExistentSpartan() {
@@ -35,4 +32,11 @@ public class delete_idSpartanStepdefs {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
     }
+
+    @And("I create a new spartan with the body:")
+    public void iCreateANewSpartanWithTheBody(String body) {
+        // Send a PUT request for the spartan
+
+    }
+
 }
