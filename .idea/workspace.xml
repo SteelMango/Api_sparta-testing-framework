@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2eccdef-68a9-4fe7-be3b-345c6a4c1fd2" name="Changes" comment="DOC: Working DELETE stepdefs">
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/put_spartanStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/put_spartan.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/-api-tests.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/commonStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/commonStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/delete_idSpartanStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/steps/spartans/delete_idSpartanStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/utils/tokenHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/java/utils/tokenHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,61 +42,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000048484246" />
-      <entry key="MS500" value="1.0252791688620275" />
-      <entry key="S2" value="1.6913162025949506" />
-      <entry key="S5" value="2.6066325659823093" />
-      <entry key="S10" value="3.527821334486166" />
-      <entry key="S30" value="7.268860370489742" />
-      <entry key="S60" value="11.403810846002981" />
-      <entry key="M2" value="16.174007450142074" />
-      <entry key="M5" value="26.52720410590951" />
-      <entry key="M10" value="47.92557517306487" />
-      <entry key="M15" value="70.53227088481448" />
-      <entry key="M30" value="134.8599168731461" />
-      <entry key="H1" value="250.4992454731462" />
-      <entry key="H2" value="463.2804613064829" />
-      <entry key="H4" value="753.0604142910468" />
-      <entry key="D1" value="1274.8286288834977" />
-      <entry key="W1" value="1411.393607594225" />
+      <entry key="MS100" value="1.0000071679897249" />
+      <entry key="MS500" value="1.093559707351891" />
+      <entry key="S2" value="1.5999903628822691" />
+      <entry key="S5" value="2.212174797274092" />
+      <entry key="S10" value="2.800541793608737" />
+      <entry key="S30" value="4.169313163218966" />
+      <entry key="S60" value="8.098099051726027" />
+      <entry key="M2" value="19.93808136235947" />
+      <entry key="M5" value="61.66573840982993" />
+      <entry key="M10" value="114.26926767645668" />
+      <entry key="M15" value="152.73040231120027" />
+      <entry key="M30" value="238.6898057036766" />
+      <entry key="H1" value="370.2813131764973" />
+      <entry key="H2" value="594.1105581510221" />
+      <entry key="H4" value="897.8418747903116" />
+      <entry key="D1" value="1455.9524480136822" />
+      <entry key="W1" value="1604.2037621135855" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.2375470031221636E-35" />
-      <entry key="MS500" value="1.0435522554362186E-7" />
-      <entry key="S2" value="0.0193068581606147" />
-      <entry key="S5" value="0.3097261456132471" />
-      <entry key="S10" value="0.9906963610531649" />
-      <entry key="S30" value="3.473391988861495" />
-      <entry key="S60" value="6.462713783809822" />
-      <entry key="M2" value="10.350192868479168" />
-      <entry key="M5" value="17.154352002523282" />
-      <entry key="M10" value="26.453723296077424" />
-      <entry key="M15" value="34.83873344018255" />
-      <entry key="M30" value="55.830186810718104" />
-      <entry key="H1" value="93.90979175806821" />
-      <entry key="H2" value="160.01190404795682" />
-      <entry key="H4" value="238.9575347238392" />
-      <entry key="D1" value="364.0502966416283" />
-      <entry key="W1" value="394.57400980990764" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="9.025185836742415E-91" />
+      <entry key="S5" value="9.603294540608823E-37" />
+      <entry key="S10" value="1.012723308810311E-18" />
+      <entry key="S30" value="1.6980356727237046E-6" />
+      <entry key="S60" value="0.0028808362813638705" />
+      <entry key="M2" value="0.1419708962315427" />
+      <entry key="M5" value="2.3339525945157846" />
+      <entry key="M10" value="9.234598884809323" />
+      <entry key="M15" value="17.183969805550863" />
+      <entry key="M30" value="39.56100136049508" />
+      <entry key="H1" value="79.62364077212315" />
+      <entry key="H2" value="148.10509465806695" />
+      <entry key="H4" value="231.525310470396" />
+      <entry key="D1" value="367.3124696505994" />
+      <entry key="W1" value="400.9932037790236" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0013906740326419152" />
-      <entry key="MS500" value="0.2768435294882848" />
-      <entry key="S2" value="1.2503828458324069" />
-      <entry key="S5" value="2.533729823235055" />
-      <entry key="S10" value="4.174255316123052" />
-      <entry key="S30" value="10.408162338012119" />
-      <entry key="S60" value="17.572375555363763" />
-      <entry key="M2" value="26.30671247724736" />
-      <entry key="M5" value="43.551763478837444" />
-      <entry key="M10" value="74.2833731386275" />
-      <entry key="M15" value="105.2877212349693" />
-      <entry key="M30" value="190.62343020303555" />
-      <entry key="H1" value="344.3522506580612" />
-      <entry key="H2" value="623.2433952732054" />
-      <entry key="H4" value="991.9810607116588" />
-      <entry key="D1" value="1638.869461147165" />
-      <entry key="W1" value="1805.9661487530723" />
+      <entry key="MS100" value="0.9592706244132447" />
+      <entry key="MS500" value="1.0834781466538324" />
+      <entry key="S2" value="1.5951224091825267" />
+      <entry key="S5" value="2.2094030441318377" />
+      <entry key="S10" value="2.7988220436216036" />
+      <entry key="S30" value="4.1685331206590455" />
+      <entry key="S60" value="8.100126534898608" />
+      <entry key="M2" value="20.076591440969537" />
+      <entry key="M5" value="63.983047320427" />
+      <entry key="M10" value="123.47164813427864" />
+      <entry key="M15" value="169.87442350169258" />
+      <entry key="M30" value="278.20437182403305" />
+      <entry key="H1" value="449.8573344056042" />
+      <entry key="H2" value="742.1706381202872" />
+      <entry key="H4" value="1129.331615647176" />
+      <entry key="D1" value="1823.255399885023" />
+      <entry key="W1" value="2005.195477918144" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -116,57 +111,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.tokenHelper.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: delete_idSpartan.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: get_idCourse.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: post_spartan.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: put_spartan.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC - 009] Deleting a non-existent spartan.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC - 010] Successfully deleting a spartan.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC - 011] Get Spartan information based off valid id.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC - 013] Able to sucessfully get all spartan information.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC - 014] Successfully creates a new spartan.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC - 015] Create a spartan with an already existing id.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC - 016] Update a valid Spartan.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC-01] Valid details allows login.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC-02] Invalid details prevents login.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC-03] Successfully Check courses.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC-04] Using letters.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC-05] Using negative number.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC-06] Using invalid character.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC-07] Find course with invalid ID.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: [TC-08] Find course with valid ID.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/spartans&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.tokenHelper.executor": "Run",
+    "Cucumber Java.Feature: delete_idSpartan.executor": "Run",
+    "Cucumber Java.Feature: get_idCourse.executor": "Run",
+    "Cucumber Java.Feature: post_spartan.executor": "Run",
+    "Cucumber Java.Feature: put_spartan.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 009] Deleting a non-existent spartan.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 010] Successfully deleting a spartan.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 011] Get Spartan information based off valid id.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 013] Able to sucessfully get all spartan information.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 014] Successfully creates a new spartan.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 015] Create a spartan with an already existing id.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 016] Update a valid Spartan.executor": "Run",
+    "Cucumber Java.Scenario: [TC - 017] Update an invalid Spartan.executor": "Run",
+    "Cucumber Java.Scenario: [TC-01] Valid details allows login.executor": "Run",
+    "Cucumber Java.Scenario: [TC-02] Invalid details prevents login.executor": "Run",
+    "Cucumber Java.Scenario: [TC-03] Successfully Check courses.executor": "Run",
+    "Cucumber Java.Scenario: [TC-04] Using letters.executor": "Run",
+    "Cucumber Java.Scenario: [TC-05] Using negative number.executor": "Run",
+    "Cucumber Java.Scenario: [TC-06] Using invalid character.executor": "Run",
+    "Cucumber Java.Scenario: [TC-07] Find course with invalid ID.executor": "Run",
+    "Cucumber Java.Scenario: [TC-08] Find course with valid ID.executor": "Run",
+    "JUnit.features in Api-Test-Framework.executor": "Run",
+    "JUnit.resources in Api-Test-Framework.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "git.auto.fetch.suggestion.counter": "1",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: put_spartan">
-    <configuration name="Feature: delete_idSpartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Api-Test-Framework" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
-      <option name="SUGGESTED_NAME" value="Feature: delete_idSpartan" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="JUnit.features in Api-Test-Framework">
     <configuration name="Feature: put_spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/put_spartan.feature" />
@@ -174,44 +155,6 @@
       <module name="Api-Test-Framework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
       <option name="SUGGESTED_NAME" value="Feature: put_spartan" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: [TC - 009] Deleting a non-existent spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC - 009\] Deleting a non-existent spartan$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 009\] Deleting a non-existent spartan$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC - 009] Deleting a non-existent spartan" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: [TC - 010] Successfully deleting a spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/delete_idSpartan.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC - 010\] Successfully deleting a spartan$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 010\] Successfully deleting a spartan$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC - 010] Successfully deleting a spartan" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -242,13 +185,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: [TC - 017] Update an invalid Spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/put_spartan.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Api-Test-Framework" />
+      <option name="NAME_FILTER" value="^\[TC - 017\] Update an invalid Spartan$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 017\] Update an invalid Spartan$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC - 017] Update an invalid Spartan" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="features in Api-Test-Framework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api-Test-Framework" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="resources in Api-Test-Framework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api-Test-Framework" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.features in Api-Test-Framework" />
+        <item itemvalue="JUnit.resources in Api-Test-Framework" />
+        <item itemvalue="Cucumber Java.Scenario: [TC - 017] Update an invalid Spartan" />
         <item itemvalue="Cucumber Java.Feature: put_spartan" />
         <item itemvalue="Cucumber Java.Scenario: [TC - 016] Update a valid Spartan" />
-        <item itemvalue="Cucumber Java.Feature: delete_idSpartan" />
-        <item itemvalue="Cucumber Java.Scenario: [TC - 009] Deleting a non-existent spartan" />
-        <item itemvalue="Cucumber Java.Scenario: [TC - 010] Successfully deleting a spartan" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +250,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DOC: finished passing authentication step defs" />

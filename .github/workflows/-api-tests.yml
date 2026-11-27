@@ -1,0 +1,68 @@
+name: SpartaAcademyAPI Tests
+
+# What triggers the workflow, like the trigger in a Power Automate flow.
+# Here it runs on every pull request, or manually from the Actions tab.
+on:
+  pull_request:
+  workflow_dispatch:
+
+# Think about setting up a fresh machine: you choose what to run the tests on,
+# and you have to give it instructions on how to run the tests.
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Copy the repo's code onto the fresh machine
+      - name: Check out the code
+        uses: actions/checkout@v4
+
+      # The Dockerfile is in this repo, so we need to build the image from it
+      - name: Build the Docker image
+        run: docker build -t spartaacademyapi Api-Test-Framework/src/main/resources/SpartaAcademyApp
+
+      # Start the API in the background on port 8080
+      - name: Run Docker API container
+        run: docker run -d --name spartaacademyapi -p 8080:8080 spartaacademyapi
+
+      # Keep checking until the API responds (up to about 1 minute)
+      - name: Wait for the API to be ready
+        run: |
+          for i in {1..30}; do
+            if curl -s -o /dev/null http://localhost:8080/api/Spartans; then
+              echo "API is up"
+              exit 0
+            fi
+            echo "Waiting for API... ($i)"
+            sleep 2
+          done
+          echo "API did not start in time"
+          docker logs spartaacademyapi
+          exit 1
+
+      # Install Java and cache Maven dependencies
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+          cache-dependency-path: Api-Test-Framework/pom.xml
+
+      # Run all the Cucumber tests (RunCucumberTest picks up every feature file)
+      - name: Run the tests
+        working-directory: Api-Test-Framework
+        run: mvn -B test
+
+      # Only if something failed: show the API's own logs
+      - name: Show API logs if tests failed
+        if: failure()
+        run: docker logs spartaacademyapi
+
+      # Always save the test reports so they can be downloaded from the run page
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: Api-Test-Framework/target/
