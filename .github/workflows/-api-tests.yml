@@ -40,7 +40,8 @@ jobs:
           docker logs spartaacademyapi
           exit 1
 
-            - name: Set up Java
+      # Install Java 26 to match the pom.xml, and cache Maven dependencies
+      - name: Set up Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
