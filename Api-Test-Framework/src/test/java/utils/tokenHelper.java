@@ -1,4 +1,5 @@
-package utils;// logins in, gets the response that is the bearer token and then saves it
+package utils;
+// logins in, gets the response that is the bearer token and then saves it
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -10,6 +11,14 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 
 public class tokenHelper {
+    public static void main(String[] args) {
+        tokenHelper token = new tokenHelper();
+        System.out.println("Bearerkey for Swagger UI");
+        System.out.println("Bearer "+token.getBearerAPIKey());
+
+        System.out.println("\nBearerKey for Postman");
+        System.out.println(token.getBearerAPIKey());
+    }
     private RequestSpecification request;
     private Response response;
     private String URL = "http://localhost:8080/Auth/login";
@@ -31,4 +40,7 @@ public class tokenHelper {
 
         return token;
     }
+
 }
+
+

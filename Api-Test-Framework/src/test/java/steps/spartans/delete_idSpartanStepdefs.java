@@ -26,66 +26,10 @@ public class delete_idSpartanStepdefs {
         throw new PendingException();
     }
 
-    @Then("^I should get an error$")
-    public void iShouldGetAnError() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @When("^I enter a valid id to delete$")
     public void iEnterAValidId() {
         System.out.println("Valid ID: " + validSpartanID);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     @Then("^I should get http code (\\d+)$")
     public void iShouldGetHttpCode(int actual) {
@@ -106,7 +50,6 @@ public class delete_idSpartanStepdefs {
         response.prettyPrint();
 
         System.out.println("POST status: " + response.statusCode());
-
     }
 
     @And("I find the ID of the created Spartan")
@@ -122,5 +65,22 @@ public class delete_idSpartanStepdefs {
         response.prettyPrint();
 
         validSpartanID = response.jsonPath().getInt("find {it.firstName == 'Bartholomewzx'}.id ");
+    }
+
+    @When("I enter an invalid id of a non-existent spartan {int}")
+    public void iEnterAnInvalidIdOfANonExistentSpartanId(int id) {
+        response = given()
+                .auth().oauth2(token.getBearerAPIKey())
+                .when()
+                .delete(commonStepdefs.id_url + id);
+        System.out.println("ID being deleted: " + id);
+    }
+
+    @Then("I should get a {int} code")
+    public void iShouldGetAStatusCode(int actual) {
+        int expected = response.getStatusCode();
+        assertEquals(actual,expected);
+        System.out.println("Actual: " + actual + " Expected: " + expected);
+
     }
 }

@@ -21,6 +21,5 @@ public class commonStepdefs {
     public void iAmOnTheSpartaApiForAnId() {
         response = given()
                 .get(id_url);
-
     }
 }
