@@ -19,7 +19,10 @@ jobs:
 
       # The Dockerfile is in this repo, so we need to build the image from it
       - name: Build the Docker image
-        run: docker build -t spartaacademyapi Api-Test-Framework/src/main/resources/SpartaAcademyApp
+        run: >
+          docker build -t spartaacademyapi
+          -f Api-Test-Framework/src/main/resources/SpartaAcademyApp/SpartaAcademyAPI/Dockerfile
+          Api-Test-Framework/src/main/resources/SpartaAcademyApp
 
       # Start the API in the background on port 8080
       - name: Run Docker API container
