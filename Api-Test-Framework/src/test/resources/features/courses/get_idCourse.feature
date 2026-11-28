@@ -8,6 +8,7 @@ Feature: Courses by ID
     When  I enter letters
     Then I should get an error about invalid input
 
+  @defect
   Scenario: [TC-05] Using negative number
     Given I am on the courses id api
     When I enter a negative number in the query

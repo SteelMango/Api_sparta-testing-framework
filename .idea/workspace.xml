@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2eccdef-68a9-4fe7-be3b-345c6a4c1fd2" name="Changes" comment="DOC: updated yml file">
+    <list default="true" id="b2eccdef-68a9-4fe7-be3b-345c6a4c1fd2" name="Changes" comment="DOC: updated yml file and depedancy managment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_idCourse.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_idCourse.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +43,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.5207756838942627E-4" />
-      <entry key="MS500" value="0.4065248309404648" />
-      <entry key="S2" value="3.849336268238466" />
-      <entry key="S5" value="8.791339728304704" />
-      <entry key="S10" value="13.111456273757849" />
-      <entry key="S30" value="18.77419566945089" />
-      <entry key="S60" value="21.053520788957112" />
-      <entry key="M2" value="22.42622468236497" />
-      <entry key="M5" value="23.34394243878718" />
-      <entry key="M10" value="23.838688474685625" />
-      <entry key="M15" value="25.704735974635618" />
-      <entry key="M30" value="50.62032007379286" />
-      <entry key="H1" value="148.69966297463534" />
-      <entry key="H2" value="370.54984867045863" />
-      <entry key="H4" value="713.0464545896219" />
-      <entry key="D1" value="1430.3192751370402" />
-      <entry key="W1" value="1636.1903759324332" />
+      <entry key="MS100" value="1.646176415690535" />
+      <entry key="MS500" value="1.940682583086104" />
+      <entry key="S2" value="3.1958003700113875" />
+      <entry key="S5" value="5.094035681882039" />
+      <entry key="S10" value="6.295243495124398" />
+      <entry key="S30" value="7.364850834297691" />
+      <entry key="S60" value="7.729361588303125" />
+      <entry key="M2" value="8.312138321638237" />
+      <entry key="M5" value="12.075953581594675" />
+      <entry key="M10" value="19.72709396417795" />
+      <entry key="M15" value="25.806192388232475" />
+      <entry key="M30" value="50.28087441337675" />
+      <entry key="H1" value="138.7440246121126" />
+      <entry key="H2" value="352.384182806223" />
+      <entry key="H4" value="695.8105271390472" />
+      <entry key="D1" value="1438.3317263928964" />
+      <entry key="W1" value="1655.0614871020575" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000006274483324" />
-      <entry key="S5" value="1.003303932665234" />
-      <entry key="S10" value="1.0574798457307784" />
-      <entry key="S30" value="1.3859270306257918" />
-      <entry key="S60" value="1.6212302557231029" />
-      <entry key="M2" value="1.7881816134134971" />
-      <entry key="M5" value="1.9091838602048905" />
-      <entry key="M10" value="1.9630816954647328" />
-      <entry key="M15" value="2.1447577319153948" />
-      <entry key="M30" value="5.987917773576439" />
-      <entry key="H1" value="27.32220517574009" />
-      <entry key="H2" value="85.53085341213513" />
-      <entry key="H4" value="175.87705599973486" />
-      <entry key="D1" value="352.1950913584265" />
-      <entry key="W1" value="400.2687367648009" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="9.919071851838164E-171" />
+      <entry key="S5" value="1.0000479410828227E-68" />
+      <entry key="S10" value="1.055762547816465E-34" />
+      <entry key="S30" value="6.429419297874423E-12" />
+      <entry key="S60" value="3.4918886963872152E-6" />
+      <entry key="M2" value="0.0026243361998275288" />
+      <entry key="M5" value="0.14044002325614974" />
+      <entry key="M10" value="0.5324268428449476" />
+      <entry key="M15" value="0.8986542273698475" />
+      <entry key="M30" value="3.875993300272574" />
+      <entry key="H1" value="21.98210830099731" />
+      <entry key="H2" value="76.71841165344438" />
+      <entry key="H4" value="166.57030696563828" />
+      <entry key="D1" value="349.01816586027684" />
+      <entry key="W1" value="399.75093628368603" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.004418504059541943" />
-      <entry key="MS500" value="0.7327954684146529" />
-      <entry key="S2" value="4.51038483194105" />
-      <entry key="S5" value="9.552775833692566" />
-      <entry key="S10" value="13.99843916876102" />
-      <entry key="S30" value="20.078140464843724" />
-      <entry key="S60" value="22.627931551453223" />
-      <entry key="M2" value="24.189144024947037" />
-      <entry key="M5" value="25.242511360808784" />
-      <entry key="M10" value="25.796333104620174" />
-      <entry key="M15" value="27.845444006997855" />
-      <entry key="M30" value="56.60165396373849" />
-      <entry key="H1" value="176.00572651197288" />
-      <entry key="H2" value="456.0547925123657" />
-      <entry key="H4" value="888.8965288844093" />
-      <entry key="D1" value="1782.505246109394" />
-      <entry key="W1" value="2036.4576282019536" />
+      <entry key="MS100" value="1.5682102050705757" />
+      <entry key="MS500" value="1.921946586683983" />
+      <entry key="S2" value="3.188351387530872" />
+      <entry key="S5" value="5.0894367096792585" />
+      <entry key="S10" value="6.2924332644762515" />
+      <entry key="S30" value="7.363762486860747" />
+      <entry key="S60" value="7.728794270793949" />
+      <entry key="M2" value="8.314418911851416" />
+      <entry key="M5" value="12.215463654708406" />
+      <entry key="M10" value="20.257956062302604" />
+      <entry key="M15" value="26.703083722402074" />
+      <entry key="M30" value="54.15256883061712" />
+      <entry key="H1" value="160.71312628910533" />
+      <entry key="H2" value="429.0793441218498" />
+      <entry key="H4" value="862.3552749274556" />
+      <entry key="D1" value="1787.3408532485892" />
+      <entry key="W1" value="2054.8109406836975" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -148,14 +149,15 @@
     "settings.editor.selected.configurable": "discord-application"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.features in Api-Test-Framework">
-    <configuration name="Feature: put_spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: [TC-05] Using negative number">
+    <configuration name="Scenario: [TC - 014] Successfully creates a new spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/put_spartan.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Api-Test-Framework" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
-      <option name="SUGGESTED_NAME" value="Feature: put_spartan" />
+      <option name="NAME_FILTER" value="^\[TC - 014\] Successfully creates a new spartan$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 014\] Successfully creates a new spartan$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC - 014] Successfully creates a new spartan" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -167,14 +169,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: [TC - 016] Update a valid Spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: [TC - 015] Create a spartan with an already existing id" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/put_spartan.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/post_spartan.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC - 016\] Update a valid Spartan$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 016\] Update a valid Spartan$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC - 016] Update a valid Spartan" />
+      <option name="NAME_FILTER" value="^\[TC - 015\] Create a spartan with an already existing id$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 015\] Create a spartan with an already existing id$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC - 015] Create a spartan with an already existing id" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -186,14 +188,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: [TC - 017] Update an invalid Spartan" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: [TC-05] Using negative number" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/spartans/put_spartan.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Api-Test-Framework/src/test/resources/features/courses/get_idCourse.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Api-Test-Framework" />
-      <option name="NAME_FILTER" value="^\[TC - 017\] Update an invalid Spartan$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC - 017\] Update an invalid Spartan$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: [TC - 017] Update an invalid Spartan" />
+      <option name="NAME_FILTER" value="^\[TC-05\] Using negative number$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^\[TC-05\] Using negative number$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [TC-05] Using negative number" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -223,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: [TC-05] Using negative number" />
+        <item itemvalue="Cucumber Java.Scenario: [TC - 014] Successfully creates a new spartan" />
+        <item itemvalue="Cucumber Java.Scenario: [TC - 015] Create a spartan with an already existing id" />
         <item itemvalue="JUnit.features in Api-Test-Framework" />
         <item itemvalue="JUnit.resources in Api-Test-Framework" />
-        <item itemvalue="Cucumber Java.Scenario: [TC - 017] Update an invalid Spartan" />
-        <item itemvalue="Cucumber Java.Feature: put_spartan" />
-        <item itemvalue="Cucumber Java.Scenario: [TC - 016] Update a valid Spartan" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +273,8 @@
     <MESSAGE value="DOC: Added yml file" />
     <MESSAGE value="DOC: updated yml file and pom.xml capitalisation error" />
     <MESSAGE value="DOC: updated yml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOC: updated yml file" />
+    <MESSAGE value="DOC: updated yml file and depedancy managment" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOC: updated yml file and depedancy managment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

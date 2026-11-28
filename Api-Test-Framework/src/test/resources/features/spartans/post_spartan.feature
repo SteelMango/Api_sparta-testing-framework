@@ -3,6 +3,7 @@ Feature: Spartans
   I want to be able to create a new spartan,
   so the spartan information can be accessed for training.
 
+  @defect
   Scenario Outline: [TC - 014] Successfully creates a new spartan
     Given I am on the sparta api for an id
     When I send over body:
@@ -39,6 +40,7 @@ Feature: Spartans
       | Liampaul  | Okafor   | University of Bristol | Mathematics      | C# Dev     | Engineering | Priya Nandra | 2026-09-07T09:00:00.000Z | 2026-11-27T17:00:00.000Z | false     |
       | Sophie    | Marshall | University of Glasgow | Physics          | Data Eng   | Data        | Tom Ellery   | 2026-03-02T09:00:00.000Z | 2026-05-22T17:00:00.000Z | true      |
 
+    @defect
   Scenario Outline: [TC - 015] Create a spartan with an already existing id
       Given I am on the sparta api for an id
       When I send over body:
