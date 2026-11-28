@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2eccdef-68a9-4fe7-be3b-345c6a4c1fd2" name="Changes" comment="DOC: updated yml file and pom.xml capitalisation error">
+    <list default="true" id="b2eccdef-68a9-4fe7-be3b-345c6a4c1fd2" name="Changes" comment="DOC: updated yml file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Api-Test-Framework/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,61 +42,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000307299703262" />
-      <entry key="MS500" value="1.137536724279938" />
-      <entry key="S2" value="2.293963117445977" />
-      <entry key="S5" value="4.098581860621225" />
-      <entry key="S10" value="5.7005158523638215" />
-      <entry key="S30" value="7.595694714908887" />
-      <entry key="S60" value="8.248423615887257" />
-      <entry key="M2" value="8.660904500805776" />
-      <entry key="M5" value="13.155097665139035" />
-      <entry key="M10" value="38.62678560975602" />
-      <entry key="M15" value="71.34361440298663" />
-      <entry key="M30" value="162.62707429574732" />
-      <entry key="H1" value="307.70790120152407" />
-      <entry key="H2" value="544.3019200834506" />
-      <entry key="H4" value="863.5288070162887" />
-      <entry key="D1" value="1460.2298794331314" />
-      <entry key="W1" value="1620.8775656561056" />
+      <entry key="MS100" value="1.5207756838942627E-4" />
+      <entry key="MS500" value="0.4065248309404648" />
+      <entry key="S2" value="3.849336268238466" />
+      <entry key="S5" value="8.791339728304704" />
+      <entry key="S10" value="13.111456273757849" />
+      <entry key="S30" value="18.77419566945089" />
+      <entry key="S60" value="21.053520788957112" />
+      <entry key="M2" value="22.42622468236497" />
+      <entry key="M5" value="23.34394243878718" />
+      <entry key="M10" value="23.838688474685625" />
+      <entry key="M15" value="25.704735974635618" />
+      <entry key="M30" value="50.62032007379286" />
+      <entry key="H1" value="148.69966297463534" />
+      <entry key="H2" value="370.54984867045863" />
+      <entry key="H4" value="713.0464545896219" />
+      <entry key="D1" value="1430.3192751370402" />
+      <entry key="W1" value="1636.1903759324332" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.3260249508335727E-280" />
-      <entry key="S5" value="1.4024375634294405E-112" />
-      <entry key="S10" value="1.2238338156162067E-56" />
-      <entry key="S30" value="3.896643646904164E-19" />
-      <entry key="S60" value="1.380036326573681E-9" />
-      <entry key="M2" value="9.826193094751192E-5" />
-      <entry key="M5" value="0.12710610743012968" />
-      <entry key="M10" value="2.155039476972784" />
-      <entry key="M15" value="6.513508190795166" />
-      <entry key="M30" value="24.356394920402536" />
-      <entry key="H1" value="62.47624184518172" />
-      <entry key="H2" value="131.19172148901984" />
-      <entry key="H4" value="217.9047471642379" />
-      <entry key="D1" value="363.6193964150096" />
-      <entry key="W1" value="400.41474788380714" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000006274483324" />
+      <entry key="S5" value="1.003303932665234" />
+      <entry key="S10" value="1.0574798457307784" />
+      <entry key="S30" value="1.3859270306257918" />
+      <entry key="S60" value="1.6212302557231029" />
+      <entry key="M2" value="1.7881816134134971" />
+      <entry key="M5" value="1.9091838602048905" />
+      <entry key="M10" value="1.9630816954647328" />
+      <entry key="M15" value="2.1447577319153948" />
+      <entry key="M30" value="5.987917773576439" />
+      <entry key="H1" value="27.32220517574009" />
+      <entry key="H2" value="85.53085341213513" />
+      <entry key="H4" value="175.87705599973486" />
+      <entry key="D1" value="352.1950913584265" />
+      <entry key="W1" value="400.2687367648009" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659662185825167" />
-      <entry key="MS500" value="1.1298611326558652" />
-      <entry key="S2" value="2.290025893071941" />
-      <entry key="S5" value="4.089293151647775" />
-      <entry key="S10" value="5.683935244584204" />
-      <entry key="S30" value="7.581579904331863" />
-      <entry key="S60" value="8.239450935643495" />
-      <entry key="M2" value="8.655937670018105" />
-      <entry key="M5" value="13.27910960964839" />
-      <entry key="M10" value="40.77317444251743" />
-      <entry key="M15" value="77.84121427879926" />
-      <entry key="M30" value="186.95449060863825" />
-      <entry key="H1" value="370.14658156139507" />
-      <entry key="H2" value="675.4536683746351" />
-      <entry key="H4" value="1081.4000274059322" />
-      <entry key="D1" value="1823.8398454566732" />
-      <entry key="W1" value="2021.2908265246924" />
+      <entry key="MS100" value="0.004418504059541943" />
+      <entry key="MS500" value="0.7327954684146529" />
+      <entry key="S2" value="4.51038483194105" />
+      <entry key="S5" value="9.552775833692566" />
+      <entry key="S10" value="13.99843916876102" />
+      <entry key="S30" value="20.078140464843724" />
+      <entry key="S60" value="22.627931551453223" />
+      <entry key="M2" value="24.189144024947037" />
+      <entry key="M5" value="25.242511360808784" />
+      <entry key="M10" value="25.796333104620174" />
+      <entry key="M15" value="27.845444006997855" />
+      <entry key="M30" value="56.60165396373849" />
+      <entry key="H1" value="176.00572651197288" />
+      <entry key="H2" value="456.0547925123657" />
+      <entry key="H4" value="888.8965288844093" />
+      <entry key="D1" value="1782.505246109394" />
+      <entry key="W1" value="2036.4576282019536" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -135,6 +136,7 @@
     "Cucumber Java.Scenario: [TC-08] Find course with valid ID.executor": "Run",
     "JUnit.features in Api-Test-Framework.executor": "Run",
     "JUnit.resources in Api-Test-Framework.executor": "Run",
+    "Maven.Api-Test-Framework [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -267,9 +269,9 @@
     <MESSAGE value="DOC: Finished POST and DELETE stepdefs" />
     <MESSAGE value="DOC: Working DELETE stepdefs" />
     <MESSAGE value="DOC: Added yml file" />
-    <MESSAGE value="DOC: updated yml file" />
     <MESSAGE value="DOC: updated yml file and pom.xml capitalisation error" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOC: updated yml file and pom.xml capitalisation error" />
+    <MESSAGE value="DOC: updated yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOC: updated yml file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
