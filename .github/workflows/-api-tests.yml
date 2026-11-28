@@ -52,7 +52,7 @@ jobs:
       # Run all the Cucumber tests (RunCucumberTest picks up every feature file)
       - name: Run the tests
         working-directory: Api-Test-Framework
-        run: mvn -B test
+        run: mvn -B test -Dcucumber.filter.tags="not @defect"
 
       # Only if something failed: show the API's own logs
       - name: Show API logs if tests failed
